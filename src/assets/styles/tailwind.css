@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.7 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.15 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -474,6 +474,18 @@ button,
   cursor: pointer;
 }
 
+/**
+ * Override legacy focus reset from Normalize with modern Firefox focus styles.
+ *
+ * This is actually an improvement over the new defaults in Firefox in our testing,
+ * as it triggers the better focus styles even for links, which still use a dotted
+ * outline in Firefox by default.
+ */
+
+:-moz-focusring {
+  outline: auto;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -587,6 +599,12 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+@font-face {
+  font-family: 'Tahu!';
+
+  src: local('Tahu!'), url(../fonts/Tahu!.ttf) format('truetype');
+}
+
 .container {
   width: 100%;
 }
@@ -620,6 +638,11 @@ video {
     max-width: 1536px;
   }
 }
+
+/* @font-face {
+    font-family: 'Gotham-Medium';
+    src: local('Gotham-Medium'), url('GothamMedium.ttf') format('ttf');
+} */
 
 .sr-only {
   position: absolute;
@@ -723,7 +746,6 @@ video {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -6408,6 +6430,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-hero-lg {
+  height: 490px;
 }
 
 .max-h-0 {
@@ -22363,6 +22389,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-tahu {
+  font-family: Tahu!, Tahu! Regular;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -32368,7 +32398,6 @@ video {
   }
 
   .sm\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -38053,6 +38082,10 @@ video {
 
   .sm\:h-screen {
     height: 100vh;
+  }
+
+  .sm\:h-hero-lg {
+    height: 490px;
   }
 
   .sm\:max-h-0 {
@@ -53934,6 +53967,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-tahu {
+    font-family: Tahu!, Tahu! Regular;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -63587,7 +63624,6 @@ video {
   }
 
   .md\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -69272,6 +69308,10 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-hero-lg {
+    height: 490px;
   }
 
   .md\:max-h-0 {
@@ -85153,6 +85193,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-tahu {
+    font-family: Tahu!, Tahu! Regular;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -94806,7 +94850,6 @@ video {
   }
 
   .lg\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -100491,6 +100534,10 @@ video {
 
   .lg\:h-screen {
     height: 100vh;
+  }
+
+  .lg\:h-hero-lg {
+    height: 490px;
   }
 
   .lg\:max-h-0 {
@@ -116372,6 +116419,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-tahu {
+    font-family: Tahu!, Tahu! Regular;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -126025,7 +126076,6 @@ video {
   }
 
   .xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -131710,6 +131760,10 @@ video {
 
   .xl\:h-screen {
     height: 100vh;
+  }
+
+  .xl\:h-hero-lg {
+    height: 490px;
   }
 
   .xl\:max-h-0 {
@@ -147591,6 +147645,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-tahu {
+    font-family: Tahu!, Tahu! Regular;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -157244,7 +157302,6 @@ video {
   }
 
   .\32xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -162929,6 +162986,10 @@ video {
 
   .\32xl\:h-screen {
     height: 100vh;
+  }
+
+  .\32xl\:h-hero-lg {
+    height: 490px;
   }
 
   .\32xl\:max-h-0 {
@@ -178808,6 +178869,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-tahu {
+    font-family: Tahu!, Tahu! Regular;
   }
 
   .\32xl\:text-xs {
