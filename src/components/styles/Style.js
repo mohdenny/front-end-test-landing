@@ -1,10 +1,10 @@
 export const styled = {
     hero: {
         xxl: '2xl:bg-red-600 2xl:h-hero-2xl',
-        xl: 'xl:bg-gray-600 xl:h-hero-xl',
-        lg: 'lg:bg-yellow-600 lg:h-hero-lg',
-        md: 'md:bg-green-600 md:h-hero-md',
-        sm: 'sm:bg-blue-600 sm:h-hero-sm'
+        xl: 'xl:bg-red-600 xl:h-hero-xl',
+        lg: 'lg:bg-red-600 lg:h-hero-lg',
+        md: 'md:bg-red-600 md:h-hero-md',
+        sm: 'sm:bg-red-600 sm:h-hero-sm'
     },
     vector: {
         xxl: '2xl:bg-contain 2xl:bg-center 2xl:h-hero-2xl',
