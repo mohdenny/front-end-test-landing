@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  @import url('http://fonts.cdnfonts.com/css/tahu');
-
   @font-face {
     font-family: 'tahu';
     src: local('Tahu!'), url(../fonts/Tahu.ttf) format('ttf');
