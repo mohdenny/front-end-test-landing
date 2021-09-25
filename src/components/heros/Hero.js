@@ -4,7 +4,7 @@ import { styled } from '../styles/Style';
 const Hero = () => {
     return (
         <Fragment>
-            <div id="hero" className={`${styled.hero.xxl} ${styled.hero.xl} ${styled.hero.lg} ${styled.hero.md} ${styled.hero.sm} max-w-full`}>
+            <div id="hero" className={`${styled.hero.xxl} ${styled.hero.xl} ${styled.hero.lg} ${styled.hero.md} ${styled.hero.sm} ${styled.hero.xs} max-w-full`}>
                 <div id="vector" className={`${styled.vector.xxl} ${styled.vector.xl} ${styled.vector.lg} ${styled.vector.md} ${styled.vector.sm} bg-vector-pattern bg-no-repeat md:bg-contain w-full text-center`}>
                     <div id="hero-body" className={`${styled.heroBody.xxl} ${styled.heroBody.xl} ${styled.heroBody.lg} ${styled.heroBody.md} ${styled.heroBody.sm} h-auto w-full`}>
                         <div id="logo" className="grid grid-cols-auto w-full text-center mb-2">
