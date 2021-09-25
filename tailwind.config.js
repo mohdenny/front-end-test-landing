@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'tahu': ['Tahu'],
+        'tahu': ['tahu'],
         'gotham': ['Gotham'],
       },
       fontSize: {
