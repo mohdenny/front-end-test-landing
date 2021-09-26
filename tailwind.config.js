@@ -5,6 +5,13 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       fontFamily: {
         'tahu': ['tahu'],
@@ -16,6 +23,7 @@ module.exports = {
         '4xs': '0.3rem'
       },
       height: {
+        'hero-xs' : '500px',
         'hero-sm' : '340px',
         'hero-md' : '410px',
         'hero-lg' : '550px',
