@@ -1,16 +1,15 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: 'Tahu!';
-        src: local('Tahu!'), url(../fonts/Tahu!.ttf) format('truetype');
-    }
+  @font-face {
+    font-family: 'tahu';
+    src: local('Tahu!'), url(../fonts/Tahu.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Gotham';
+    src: local('Gotham'), url(../fonts/GothamBook.ttf) format('ttf');
+  }
 }
-
-/* @font-face {
-    font-family: 'Gotham-Medium';
-    src: local('Gotham-Medium'), url('GothamMedium.ttf') format('ttf');
-} */
-
-@tailwind utilities;

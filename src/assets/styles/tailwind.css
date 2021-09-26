@@ -600,9 +600,15 @@ video {
 }
 
 @font-face {
-  font-family: 'Tahu!';
+  font-family: 'tahu';
 
-  src: local('Tahu!'), url(../fonts/Tahu!.ttf) format('truetype');
+  src: local('Tahu!'), url(../fonts/Tahu.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Gotham';
+
+  src: local('Gotham'), url(../fonts/GothamBook.ttf) format('ttf');
 }
 
 .container {
@@ -638,11 +644,6 @@ video {
     max-width: 1536px;
   }
 }
-
-/* @font-face {
-    font-family: 'Gotham-Medium';
-    src: local('Gotham-Medium'), url('GothamMedium.ttf') format('ttf');
-} */
 
 .sr-only {
   position: absolute;
@@ -6432,8 +6433,44 @@ video {
   height: 100vh;
 }
 
+.h-hero-sm {
+  height: 340px;
+}
+
+.h-hero-md {
+  height: 410px;
+}
+
 .h-hero-lg {
-  height: 490px;
+  height: 550px;
+}
+
+.h-hero-xl {
+  height: 670px;
+}
+
+.h-hero-2xl {
+  height: 820px;
+}
+
+.h-video-thumb-sm {
+  height: 180px;
+}
+
+.h-video-thumb-md {
+  height: 280px;
+}
+
+.h-video-thumb-lg {
+  height: 380px;
+}
+
+.h-video-thumb-xl {
+  height: 480px;
+}
+
+.h-video-thumb-2xl {
+  height: 580px;
 }
 
 .max-h-0 {
@@ -17812,6 +17849,30 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-shape-red {
+  background-image: url('../images/heros/shape_red.png');
+}
+
+.bg-vector-pattern {
+  background-image: url('../images/heros/vector.png');
+}
+
+.bg-logo-bisnis-top {
+  background-image: url('../images/heros/logo_bisnis_top.png');
+}
+
+.bg-logo-indonesia-maju-top {
+  background-image: url('../images/heros/logo_indonesia_maju_top.png');
+}
+
+.bg-video-thumb {
+  background-image: url('../images/heros/video_thumb.png');
+}
+
+.bg-icon-player {
+  background-image: url('../images/heros/icon_player.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -22390,7 +22451,11 @@ video {
 }
 
 .font-tahu {
-  font-family: Tahu!, Tahu! Regular;
+  font-family: tahu;
+}
+
+.font-gotham {
+  font-family: Gotham;
 }
 
 .text-xs {
@@ -22456,6 +22521,18 @@ video {
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
+}
+
+.text-2xs {
+  font-size: 0.5rem;
+}
+
+.text-3xs {
+  font-size: 0.4rem;
+}
+
+.text-4xs {
+  font-size: 0.3rem;
 }
 
 .font-thin {
@@ -38084,8 +38161,44 @@ video {
     height: 100vh;
   }
 
+  .sm\:h-hero-sm {
+    height: 340px;
+  }
+
+  .sm\:h-hero-md {
+    height: 410px;
+  }
+
   .sm\:h-hero-lg {
-    height: 490px;
+    height: 550px;
+  }
+
+  .sm\:h-hero-xl {
+    height: 670px;
+  }
+
+  .sm\:h-hero-2xl {
+    height: 820px;
+  }
+
+  .sm\:h-video-thumb-sm {
+    height: 180px;
+  }
+
+  .sm\:h-video-thumb-md {
+    height: 280px;
+  }
+
+  .sm\:h-video-thumb-lg {
+    height: 380px;
+  }
+
+  .sm\:h-video-thumb-xl {
+    height: 480px;
+  }
+
+  .sm\:h-video-thumb-2xl {
+    height: 580px;
   }
 
   .sm\:max-h-0 {
@@ -49390,6 +49503,30 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-shape-red {
+    background-image: url('../images/heros/shape_red.png');
+  }
+
+  .sm\:bg-vector-pattern {
+    background-image: url('../images/heros/vector.png');
+  }
+
+  .sm\:bg-logo-bisnis-top {
+    background-image: url('../images/heros/logo_bisnis_top.png');
+  }
+
+  .sm\:bg-logo-indonesia-maju-top {
+    background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .sm\:bg-video-thumb {
+    background-image: url('../images/heros/video_thumb.png');
+  }
+
+  .sm\:bg-icon-player {
+    background-image: url('../images/heros/icon_player.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -53968,7 +54105,11 @@ video {
   }
 
   .sm\:font-tahu {
-    font-family: Tahu!, Tahu! Regular;
+    font-family: tahu;
+  }
+
+  .sm\:font-gotham {
+    font-family: Gotham;
   }
 
   .sm\:text-xs {
@@ -54034,6 +54175,18 @@ video {
   .sm\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .sm\:text-2xs {
+    font-size: 0.5rem;
+  }
+
+  .sm\:text-3xs {
+    font-size: 0.4rem;
+  }
+
+  .sm\:text-4xs {
+    font-size: 0.3rem;
   }
 
   .sm\:font-thin {
@@ -69310,8 +69463,44 @@ video {
     height: 100vh;
   }
 
+  .md\:h-hero-sm {
+    height: 340px;
+  }
+
+  .md\:h-hero-md {
+    height: 410px;
+  }
+
   .md\:h-hero-lg {
-    height: 490px;
+    height: 550px;
+  }
+
+  .md\:h-hero-xl {
+    height: 670px;
+  }
+
+  .md\:h-hero-2xl {
+    height: 820px;
+  }
+
+  .md\:h-video-thumb-sm {
+    height: 180px;
+  }
+
+  .md\:h-video-thumb-md {
+    height: 280px;
+  }
+
+  .md\:h-video-thumb-lg {
+    height: 380px;
+  }
+
+  .md\:h-video-thumb-xl {
+    height: 480px;
+  }
+
+  .md\:h-video-thumb-2xl {
+    height: 580px;
   }
 
   .md\:max-h-0 {
@@ -80616,6 +80805,30 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-shape-red {
+    background-image: url('../images/heros/shape_red.png');
+  }
+
+  .md\:bg-vector-pattern {
+    background-image: url('../images/heros/vector.png');
+  }
+
+  .md\:bg-logo-bisnis-top {
+    background-image: url('../images/heros/logo_bisnis_top.png');
+  }
+
+  .md\:bg-logo-indonesia-maju-top {
+    background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .md\:bg-video-thumb {
+    background-image: url('../images/heros/video_thumb.png');
+  }
+
+  .md\:bg-icon-player {
+    background-image: url('../images/heros/icon_player.png');
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -85194,7 +85407,11 @@ video {
   }
 
   .md\:font-tahu {
-    font-family: Tahu!, Tahu! Regular;
+    font-family: tahu;
+  }
+
+  .md\:font-gotham {
+    font-family: Gotham;
   }
 
   .md\:text-xs {
@@ -85260,6 +85477,18 @@ video {
   .md\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .md\:text-2xs {
+    font-size: 0.5rem;
+  }
+
+  .md\:text-3xs {
+    font-size: 0.4rem;
+  }
+
+  .md\:text-4xs {
+    font-size: 0.3rem;
   }
 
   .md\:font-thin {
@@ -100536,8 +100765,44 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-hero-sm {
+    height: 340px;
+  }
+
+  .lg\:h-hero-md {
+    height: 410px;
+  }
+
   .lg\:h-hero-lg {
-    height: 490px;
+    height: 550px;
+  }
+
+  .lg\:h-hero-xl {
+    height: 670px;
+  }
+
+  .lg\:h-hero-2xl {
+    height: 820px;
+  }
+
+  .lg\:h-video-thumb-sm {
+    height: 180px;
+  }
+
+  .lg\:h-video-thumb-md {
+    height: 280px;
+  }
+
+  .lg\:h-video-thumb-lg {
+    height: 380px;
+  }
+
+  .lg\:h-video-thumb-xl {
+    height: 480px;
+  }
+
+  .lg\:h-video-thumb-2xl {
+    height: 580px;
   }
 
   .lg\:max-h-0 {
@@ -111842,6 +112107,30 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-shape-red {
+    background-image: url('../images/heros/shape_red.png');
+  }
+
+  .lg\:bg-vector-pattern {
+    background-image: url('../images/heros/vector.png');
+  }
+
+  .lg\:bg-logo-bisnis-top {
+    background-image: url('../images/heros/logo_bisnis_top.png');
+  }
+
+  .lg\:bg-logo-indonesia-maju-top {
+    background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .lg\:bg-video-thumb {
+    background-image: url('../images/heros/video_thumb.png');
+  }
+
+  .lg\:bg-icon-player {
+    background-image: url('../images/heros/icon_player.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -116420,7 +116709,11 @@ video {
   }
 
   .lg\:font-tahu {
-    font-family: Tahu!, Tahu! Regular;
+    font-family: tahu;
+  }
+
+  .lg\:font-gotham {
+    font-family: Gotham;
   }
 
   .lg\:text-xs {
@@ -116486,6 +116779,18 @@ video {
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .lg\:text-2xs {
+    font-size: 0.5rem;
+  }
+
+  .lg\:text-3xs {
+    font-size: 0.4rem;
+  }
+
+  .lg\:text-4xs {
+    font-size: 0.3rem;
   }
 
   .lg\:font-thin {
@@ -131762,8 +132067,44 @@ video {
     height: 100vh;
   }
 
+  .xl\:h-hero-sm {
+    height: 340px;
+  }
+
+  .xl\:h-hero-md {
+    height: 410px;
+  }
+
   .xl\:h-hero-lg {
-    height: 490px;
+    height: 550px;
+  }
+
+  .xl\:h-hero-xl {
+    height: 670px;
+  }
+
+  .xl\:h-hero-2xl {
+    height: 820px;
+  }
+
+  .xl\:h-video-thumb-sm {
+    height: 180px;
+  }
+
+  .xl\:h-video-thumb-md {
+    height: 280px;
+  }
+
+  .xl\:h-video-thumb-lg {
+    height: 380px;
+  }
+
+  .xl\:h-video-thumb-xl {
+    height: 480px;
+  }
+
+  .xl\:h-video-thumb-2xl {
+    height: 580px;
   }
 
   .xl\:max-h-0 {
@@ -143068,6 +143409,30 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-shape-red {
+    background-image: url('../images/heros/shape_red.png');
+  }
+
+  .xl\:bg-vector-pattern {
+    background-image: url('../images/heros/vector.png');
+  }
+
+  .xl\:bg-logo-bisnis-top {
+    background-image: url('../images/heros/logo_bisnis_top.png');
+  }
+
+  .xl\:bg-logo-indonesia-maju-top {
+    background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .xl\:bg-video-thumb {
+    background-image: url('../images/heros/video_thumb.png');
+  }
+
+  .xl\:bg-icon-player {
+    background-image: url('../images/heros/icon_player.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -147646,7 +148011,11 @@ video {
   }
 
   .xl\:font-tahu {
-    font-family: Tahu!, Tahu! Regular;
+    font-family: tahu;
+  }
+
+  .xl\:font-gotham {
+    font-family: Gotham;
   }
 
   .xl\:text-xs {
@@ -147712,6 +148081,18 @@ video {
   .xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .xl\:text-2xs {
+    font-size: 0.5rem;
+  }
+
+  .xl\:text-3xs {
+    font-size: 0.4rem;
+  }
+
+  .xl\:text-4xs {
+    font-size: 0.3rem;
   }
 
   .xl\:font-thin {
@@ -162988,8 +163369,44 @@ video {
     height: 100vh;
   }
 
+  .\32xl\:h-hero-sm {
+    height: 340px;
+  }
+
+  .\32xl\:h-hero-md {
+    height: 410px;
+  }
+
   .\32xl\:h-hero-lg {
-    height: 490px;
+    height: 550px;
+  }
+
+  .\32xl\:h-hero-xl {
+    height: 670px;
+  }
+
+  .\32xl\:h-hero-2xl {
+    height: 820px;
+  }
+
+  .\32xl\:h-video-thumb-sm {
+    height: 180px;
+  }
+
+  .\32xl\:h-video-thumb-md {
+    height: 280px;
+  }
+
+  .\32xl\:h-video-thumb-lg {
+    height: 380px;
+  }
+
+  .\32xl\:h-video-thumb-xl {
+    height: 480px;
+  }
+
+  .\32xl\:h-video-thumb-2xl {
+    height: 580px;
   }
 
   .\32xl\:max-h-0 {
@@ -174294,6 +174711,30 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-shape-red {
+    background-image: url('../images/heros/shape_red.png');
+  }
+
+  .\32xl\:bg-vector-pattern {
+    background-image: url('../images/heros/vector.png');
+  }
+
+  .\32xl\:bg-logo-bisnis-top {
+    background-image: url('../images/heros/logo_bisnis_top.png');
+  }
+
+  .\32xl\:bg-logo-indonesia-maju-top {
+    background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .\32xl\:bg-video-thumb {
+    background-image: url('../images/heros/video_thumb.png');
+  }
+
+  .\32xl\:bg-icon-player {
+    background-image: url('../images/heros/icon_player.png');
+  }
+
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -178872,7 +179313,11 @@ video {
   }
 
   .\32xl\:font-tahu {
-    font-family: Tahu!, Tahu! Regular;
+    font-family: tahu;
+  }
+
+  .\32xl\:font-gotham {
+    font-family: Gotham;
   }
 
   .\32xl\:text-xs {
@@ -178938,6 +179383,18 @@ video {
   .\32xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-2xs {
+    font-size: 0.5rem;
+  }
+
+  .\32xl\:text-3xs {
+    font-size: 0.4rem;
+  }
+
+  .\32xl\:text-4xs {
+    font-size: 0.3rem;
   }
 
   .\32xl\:font-thin {
