@@ -22527,8 +22527,12 @@ video {
   vertical-align: text-bottom;
 }
 
+.font-tahu-local {
+  font-family: Tahu;
+}
+
 .font-tahu {
-  font-family: Tahu, Tahu!;
+  font-family: Tahu!;
 }
 
 .font-gotham {
@@ -54249,8 +54253,12 @@ video {
     vertical-align: text-bottom;
   }
 
+  .sm\:font-tahu-local {
+    font-family: Tahu;
+  }
+
   .sm\:font-tahu {
-    font-family: Tahu, Tahu!;
+    font-family: Tahu!;
   }
 
   .sm\:font-gotham {
@@ -85619,8 +85627,12 @@ video {
     vertical-align: text-bottom;
   }
 
+  .md\:font-tahu-local {
+    font-family: Tahu;
+  }
+
   .md\:font-tahu {
-    font-family: Tahu, Tahu!;
+    font-family: Tahu!;
   }
 
   .md\:font-gotham {
@@ -116989,8 +117001,12 @@ video {
     vertical-align: text-bottom;
   }
 
+  .lg\:font-tahu-local {
+    font-family: Tahu;
+  }
+
   .lg\:font-tahu {
-    font-family: Tahu, Tahu!;
+    font-family: Tahu!;
   }
 
   .lg\:font-gotham {
@@ -148359,8 +148375,12 @@ video {
     vertical-align: text-bottom;
   }
 
+  .xl\:font-tahu-local {
+    font-family: Tahu;
+  }
+
   .xl\:font-tahu {
-    font-family: Tahu, Tahu!;
+    font-family: Tahu!;
   }
 
   .xl\:font-gotham {
@@ -179729,8 +179749,12 @@ video {
     vertical-align: text-bottom;
   }
 
+  .\32xl\:font-tahu-local {
+    font-family: Tahu;
+  }
+
   .\32xl\:font-tahu {
-    font-family: Tahu, Tahu!;
+    font-family: Tahu!;
   }
 
   .\32xl\:font-gotham {
