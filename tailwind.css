@@ -10,8 +10,8 @@
   }
 
   @font-face {
-    font-family: 'Gotham';
-    src: local('Gotham'),
-      url(../../../public/fonts/GothamBook.ttf) format('ttf');
+    font-family: 'Gotham Book';
+    src: local('Gotham Book'),
+      url('https://fonts.cdnfonts.com/s/13925/GOTHAMBOOK.woff') format('woff');
   }
 }

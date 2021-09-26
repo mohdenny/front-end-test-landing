@@ -607,10 +607,10 @@ video {
 }
 
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham Book';
 
-  src: local('Gotham'),
-      url(../../../public/fonts/GothamBook.ttf) format('ttf');
+  src: local('Gotham Book'),
+      url('https://fonts.cdnfonts.com/s/13925/GOTHAMBOOK.woff') format('woff');
 }
 
 .container {
@@ -22521,7 +22521,7 @@ video {
 }
 
 .font-gotham {
-  font-family: Gotham;
+  font-family: Gotham Book;
 }
 
 .text-xs {
@@ -54239,7 +54239,7 @@ video {
   }
 
   .sm\:font-gotham {
-    font-family: Gotham;
+    font-family: Gotham Book;
   }
 
   .sm\:text-xs {
@@ -85605,7 +85605,7 @@ video {
   }
 
   .md\:font-gotham {
-    font-family: Gotham;
+    font-family: Gotham Book;
   }
 
   .md\:text-xs {
@@ -116971,7 +116971,7 @@ video {
   }
 
   .lg\:font-gotham {
-    font-family: Gotham;
+    font-family: Gotham Book;
   }
 
   .lg\:text-xs {
@@ -148337,7 +148337,7 @@ video {
   }
 
   .xl\:font-gotham {
-    font-family: Gotham;
+    font-family: Gotham Book;
   }
 
   .xl\:text-xs {
@@ -179703,7 +179703,7 @@ video {
   }
 
   .\32xl\:font-gotham {
-    font-family: Gotham;
+    font-family: Gotham Book;
   }
 
   .\32xl\:text-xs {

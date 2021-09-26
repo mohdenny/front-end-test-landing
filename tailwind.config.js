@@ -14,7 +14,7 @@ module.exports = {
     },
     fontFamily: {
       'tahu': ['tahu'],
-      'gotham': ['Gotham'],
+      'gotham': ['Gotham Book'],
     },
     extend: {
       fontSize: {
