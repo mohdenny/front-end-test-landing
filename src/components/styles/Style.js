@@ -1,10 +1,10 @@
 export const styled = {
     hero: {
         xxl: '2xl:bg-red-600 2xl:h-hero-2xl 2xl:max-w-full',
-        xl: 'xl:bg-red-600 xl:h-hero-xl xl:max-w-full',
-        lg: 'lg:bg-red-600 lg:h-hero-lg lg:max-w-full',
-        md: 'md:bg-red-600 md:h-hero-md md:max-w-full',
-        sm: 'sm:bg-red-600 sm:h-hero-sm max-w-full',
+        xl: 'xl:bg-green-600 xl:h-hero-xl xl:max-w-full',
+        lg: 'lg:bg-gray-600 lg:h-hero-lg lg:max-w-full',
+        md: 'md:bg-yellow-600 md:h-hero-md md:max-w-full',
+        sm: 'sm:bg-blue-600 sm:h-hero-sm max-w-full',
         mobile: 'bg-red-600 h-hero-xs max-w-full',
     },
     vector: {
@@ -71,21 +71,29 @@ export const styled = {
         sm: 'sm:h-full sm:px-4 sm:py-2 sm:text-white sm:font-gotham sm:text-2xs',
         mobile: 'h-full px-4 py-2 text-white font-gotham text-xs'
     },
+    main: {
+        xxl: '2xl:transform 2xl:-translate-y-72 ',
+        xl: 'xl:transform xl:-translate-y-60',
+        lg: 'xl:transform lg:-translate-y-48',
+        md: 'md:transform md:-translate-y-36',
+        sm: 'sm:transform sm:-translate-y-32 ',
+        mobile: 'transform -translate-y-24 '
+    },
     videoBody: {
-        xxl: '2xl:grid 2xl:grid-cols-6 2xl:h-auto 2xl:w-full 2xl:transform 2xl:-translate-y-72 ',
-        xl: 'xl:grid xl:grid-cols-6 2xl:h-auto 2xl:w-full xl:transform xl:-translate-y-60',
-        lg: 'lg:grid lg:grid-cols-6 lg:h-auto lg:w-full xl:transform lg:-translate-y-48',
-        md: 'md:grid md:grid-cols-6 md:h-auto md:w-full md:transform md:-translate-y-36',
-        sm: 'sm:grid sm:grid-cols-4 sm:h-auto sm:w-full sm:transform sm:-translate-y-24 ',
-        mobile: 'grid grid-cols-6 h-auto w-full px-6 transform -translate-y-24 '
+        xxl: '2xl:grid 2xl:grid-cols-12 2xl:h-auto 2xl:w-full ',
+        xl: 'xl:grid xl:grid-cols-12 2xl:h-auto 2xl:w-full',
+        lg: 'lg:grid lg:grid-cols-12 lg:h-auto lg:w-full',
+        md: 'md:grid md:grid-cols-12 md:h-auto md:w-full',
+        sm: 'sm:grid sm:grid-cols-12 sm:h-auto sm:w-full',
+        mobile: 'grid grid-cols-12 h-auto w-full'
     },
     video: {
-        xxl: '2xl:grid 2xl:grid-rows-6 2xl:bg-video-thumb 2xl:bg-contain 2xl:bg-no-repeat 2xl:col-start-2 2xl:col-span-4 2xl:text-white 2xl:py-8 2xl:px-4 2xl:h-video-thumb-2xl',
-        xl: 'xl:grid xl:grid-rows-6 xl:bg-video-thumb xl:bg-contain xl:bg-no-repeat xl:col-start-2 xl:col-span-4 xl:text-white xl:py-6 xl:px-4 xl:h-video-thumb-xl',
-        lg: 'lg:grid lg:grid-rows-6 lg:bg-video-thumb lg:bg-contain lg:bg-no-repeat lg:col-start-2 lg:col-span-4 lg:text-white lg:py-6 lg:px-4 lg:h-video-thumb-lg',
-        md: 'md:grid md:grid-rows-6 md:bg-video-thumb md:bg-contain md:bg-no-repeat md:col-start-2 md:col-span-4 md:text-white md:py-4 md:px-2 md:h-video-thumb-md',
-        sm: 'sm:grid sm:grid-rows-6 sm:bg-video-thumb sm:bg-contain sm:bg-no-repeat sm:col-start-2 sm:col-span-4 sm:text-white sm:p-2 sm:h-video-thumb-sm',
-        mobile: 'grid grid-rows-6 bg-video-thumb bg-contain bg-no-repeat col-start-2 col-span-6 text-white p-2 h-video-thumb-sm text-white'
+        xxl: '2xl:grid 2xl:grid-rows-6 2xl:bg-video-thumb 2xl:bg-contain 2xl:bg-center 2xl:bg-no-repeat 2xl:col-start-3 2xl:col-end-11 2xl:text-white 2xl:py-4 2xl:px-12 2xl:h-video-thumb-2xl',
+        xl: 'xl:grid xl:grid-rows-6 xl:bg-video-thumb xl:bg-contain xl:bg-center xl:bg-no-repeat xl:col-start-3 xl:col-end-11 xl:text-white xl:py-4 xl:px-10 xl:h-video-thumb-xl',
+        lg: 'lg:grid lg:grid-rows-6 lg:bg-video-thumb lg:bg-contain lg:bg-center lg:bg-no-repeat lg:col-start-3 lg:col-end-11 lg:text-white lg:py-4 lg:px-12 lg:h-video-thumb-lg',
+        md: 'md:grid md:grid-rows-6 md:bg-video-thumb md:bg-contain md:bg-center md:bg-no-repeat md:col-start-3 md:col-end-11 md:text-white md:py-2 md:px-8 md:h-video-thumb-lg',
+        sm: 'sm:grid sm:grid-rows-6 sm:bg-video-thumb sm:bg-contain sm:bg-center sm:bg-no-repeat sm:col-start-3 sm:col-end-11 sm:text-white sm:py-4 sm:px-2 sm:h-video-thumb-sm',
+        mobile: 'grid grid-rows-6 bg-video-thumb bg-contain bg-no-repeat col-start-1 col-end-6 text-white p-2 h-video-thumb-sm text-white'
     },
     iconPlayer: {
         xxl: '2xl:row-start-7 2xl:bg-icon-player 2xl:bg-no-repeat 2xl:bg-contain 2xl:h-14 2xl:w-14 ',
@@ -94,5 +102,8 @@ export const styled = {
         md: 'md:row-start-7 md:bg-icon-player md:bg-no-repeat md:bg-contain md:h-8 md:w-8',
         sm: 'sm:row-start-7 sm:bg-icon-player sm:bg-no-repeat sm:bg-contain sm:h-4 sm:w-4',
         mobile: 'row-start-7 bg-icon-player bg-no-repeat bg-contain h-4 w-4'
+    },
+    event1: {
+        xxl: '2xl:bg-event-1-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event1-2xl 2xl:col-start-3 2xl:col-span-4'
     }
 }

@@ -6458,23 +6458,27 @@ video {
 }
 
 .h-video-thumb-sm {
-  height: 180px;
+  height: 50px;
 }
 
 .h-video-thumb-md {
-  height: 280px;
+  height: 240px;
 }
 
 .h-video-thumb-lg {
-  height: 380px;
+  height: 350px;
 }
 
 .h-video-thumb-xl {
-  height: 480px;
+  height: 460px;
 }
 
 .h-video-thumb-2xl {
-  height: 580px;
+  height: 543px;
+}
+
+.h-event1-2xl {
+  height: 627px;
 }
 
 .max-h-0 {
@@ -17875,6 +17879,14 @@ video {
 
 .bg-icon-player {
   background-image: url('../images/heros/icon_player.png');
+}
+
+.bg-event-1-ig {
+  background-image: url('../images/widgets/instagram_1/bg-img.png');
+}
+
+.bg-event-2-ig {
+  background-image: url('../images/widgets/instagram_2/bg-img.png');
 }
 
 .from-transparent {
@@ -38190,23 +38202,27 @@ video {
   }
 
   .sm\:h-video-thumb-sm {
-    height: 180px;
+    height: 50px;
   }
 
   .sm\:h-video-thumb-md {
-    height: 280px;
+    height: 240px;
   }
 
   .sm\:h-video-thumb-lg {
-    height: 380px;
+    height: 350px;
   }
 
   .sm\:h-video-thumb-xl {
-    height: 480px;
+    height: 460px;
   }
 
   .sm\:h-video-thumb-2xl {
-    height: 580px;
+    height: 543px;
+  }
+
+  .sm\:h-event1-2xl {
+    height: 627px;
   }
 
   .sm\:max-h-0 {
@@ -49533,6 +49549,14 @@ video {
 
   .sm\:bg-icon-player {
     background-image: url('../images/heros/icon_player.png');
+  }
+
+  .sm\:bg-event-1-ig {
+    background-image: url('../images/widgets/instagram_1/bg-img.png');
+  }
+
+  .sm\:bg-event-2-ig {
+    background-image: url('../images/widgets/instagram_2/bg-img.png');
   }
 
   .sm\:from-transparent {
@@ -69496,23 +69520,27 @@ video {
   }
 
   .md\:h-video-thumb-sm {
-    height: 180px;
+    height: 50px;
   }
 
   .md\:h-video-thumb-md {
-    height: 280px;
+    height: 240px;
   }
 
   .md\:h-video-thumb-lg {
-    height: 380px;
+    height: 350px;
   }
 
   .md\:h-video-thumb-xl {
-    height: 480px;
+    height: 460px;
   }
 
   .md\:h-video-thumb-2xl {
-    height: 580px;
+    height: 543px;
+  }
+
+  .md\:h-event1-2xl {
+    height: 627px;
   }
 
   .md\:max-h-0 {
@@ -80839,6 +80867,14 @@ video {
 
   .md\:bg-icon-player {
     background-image: url('../images/heros/icon_player.png');
+  }
+
+  .md\:bg-event-1-ig {
+    background-image: url('../images/widgets/instagram_1/bg-img.png');
+  }
+
+  .md\:bg-event-2-ig {
+    background-image: url('../images/widgets/instagram_2/bg-img.png');
   }
 
   .md\:from-transparent {
@@ -100802,23 +100838,27 @@ video {
   }
 
   .lg\:h-video-thumb-sm {
-    height: 180px;
+    height: 50px;
   }
 
   .lg\:h-video-thumb-md {
-    height: 280px;
+    height: 240px;
   }
 
   .lg\:h-video-thumb-lg {
-    height: 380px;
+    height: 350px;
   }
 
   .lg\:h-video-thumb-xl {
-    height: 480px;
+    height: 460px;
   }
 
   .lg\:h-video-thumb-2xl {
-    height: 580px;
+    height: 543px;
+  }
+
+  .lg\:h-event1-2xl {
+    height: 627px;
   }
 
   .lg\:max-h-0 {
@@ -112145,6 +112185,14 @@ video {
 
   .lg\:bg-icon-player {
     background-image: url('../images/heros/icon_player.png');
+  }
+
+  .lg\:bg-event-1-ig {
+    background-image: url('../images/widgets/instagram_1/bg-img.png');
+  }
+
+  .lg\:bg-event-2-ig {
+    background-image: url('../images/widgets/instagram_2/bg-img.png');
   }
 
   .lg\:from-transparent {
@@ -132108,23 +132156,27 @@ video {
   }
 
   .xl\:h-video-thumb-sm {
-    height: 180px;
+    height: 50px;
   }
 
   .xl\:h-video-thumb-md {
-    height: 280px;
+    height: 240px;
   }
 
   .xl\:h-video-thumb-lg {
-    height: 380px;
+    height: 350px;
   }
 
   .xl\:h-video-thumb-xl {
-    height: 480px;
+    height: 460px;
   }
 
   .xl\:h-video-thumb-2xl {
-    height: 580px;
+    height: 543px;
+  }
+
+  .xl\:h-event1-2xl {
+    height: 627px;
   }
 
   .xl\:max-h-0 {
@@ -143451,6 +143503,14 @@ video {
 
   .xl\:bg-icon-player {
     background-image: url('../images/heros/icon_player.png');
+  }
+
+  .xl\:bg-event-1-ig {
+    background-image: url('../images/widgets/instagram_1/bg-img.png');
+  }
+
+  .xl\:bg-event-2-ig {
+    background-image: url('../images/widgets/instagram_2/bg-img.png');
   }
 
   .xl\:from-transparent {
@@ -163414,23 +163474,27 @@ video {
   }
 
   .\32xl\:h-video-thumb-sm {
-    height: 180px;
+    height: 50px;
   }
 
   .\32xl\:h-video-thumb-md {
-    height: 280px;
+    height: 240px;
   }
 
   .\32xl\:h-video-thumb-lg {
-    height: 380px;
+    height: 350px;
   }
 
   .\32xl\:h-video-thumb-xl {
-    height: 480px;
+    height: 460px;
   }
 
   .\32xl\:h-video-thumb-2xl {
-    height: 580px;
+    height: 543px;
+  }
+
+  .\32xl\:h-event1-2xl {
+    height: 627px;
   }
 
   .\32xl\:max-h-0 {
@@ -174757,6 +174821,14 @@ video {
 
   .\32xl\:bg-icon-player {
     background-image: url('../images/heros/icon_player.png');
+  }
+
+  .\32xl\:bg-event-1-ig {
+    background-image: url('../images/widgets/instagram_1/bg-img.png');
+  }
+
+  .\32xl\:bg-event-2-ig {
+    background-image: url('../images/widgets/instagram_2/bg-img.png');
   }
 
   .\32xl\:from-transparent {
