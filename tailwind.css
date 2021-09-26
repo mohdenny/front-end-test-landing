@@ -4,7 +4,7 @@
 
 @layer base {
   @font-face {
-    font-family: 'Tahu!';
+    font-family: 'Tahu';
     src: local('Tahu!'),
       url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
   }

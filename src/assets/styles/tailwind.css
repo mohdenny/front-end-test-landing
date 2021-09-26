@@ -600,7 +600,7 @@ video {
 }
 
 @font-face {
-  font-family: 'Tahu!';
+  font-family: 'Tahu';
 
   src: local('Tahu!'),
       url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
@@ -22517,7 +22517,7 @@ video {
 }
 
 .font-tahu {
-  font-family: Tahu!;
+  font-family: Tahu;
 }
 
 .font-gotham {
@@ -54235,7 +54235,7 @@ video {
   }
 
   .sm\:font-tahu {
-    font-family: Tahu!;
+    font-family: Tahu;
   }
 
   .sm\:font-gotham {
@@ -85601,7 +85601,7 @@ video {
   }
 
   .md\:font-tahu {
-    font-family: Tahu!;
+    font-family: Tahu;
   }
 
   .md\:font-gotham {
@@ -116967,7 +116967,7 @@ video {
   }
 
   .lg\:font-tahu {
-    font-family: Tahu!;
+    font-family: Tahu;
   }
 
   .lg\:font-gotham {
@@ -148333,7 +148333,7 @@ video {
   }
 
   .xl\:font-tahu {
-    font-family: Tahu!;
+    font-family: Tahu;
   }
 
   .xl\:font-gotham {
@@ -179699,7 +179699,7 @@ video {
   }
 
   .\32xl\:font-tahu {
-    font-family: Tahu!;
+    font-family: Tahu;
   }
 
   .\32xl\:font-gotham {
