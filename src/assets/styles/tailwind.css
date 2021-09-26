@@ -600,7 +600,7 @@ video {
 }
 
 @font-face {
-  font-family: 'Tahu';
+  font-family: 'Tahu!';
 
   src: local('Tahu!'),
       url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
@@ -17951,6 +17951,10 @@ video {
   background-image: url('../images/widgets/banner/shape.png');
 }
 
+.bg-arrow-right {
+  background-image: url('../images/widgets/card_news/arrow-right.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -22517,7 +22521,7 @@ video {
 }
 
 .font-tahu {
-  font-family: Tahu;
+  font-family: Tahu!;
 }
 
 .font-gotham {
@@ -49669,6 +49673,10 @@ video {
     background-image: url('../images/widgets/banner/shape.png');
   }
 
+  .sm\:bg-arrow-right {
+    background-image: url('../images/widgets/card_news/arrow-right.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -54235,7 +54243,7 @@ video {
   }
 
   .sm\:font-tahu {
-    font-family: Tahu;
+    font-family: Tahu!;
   }
 
   .sm\:font-gotham {
@@ -81035,6 +81043,10 @@ video {
     background-image: url('../images/widgets/banner/shape.png');
   }
 
+  .md\:bg-arrow-right {
+    background-image: url('../images/widgets/card_news/arrow-right.png');
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -85601,7 +85613,7 @@ video {
   }
 
   .md\:font-tahu {
-    font-family: Tahu;
+    font-family: Tahu!;
   }
 
   .md\:font-gotham {
@@ -112401,6 +112413,10 @@ video {
     background-image: url('../images/widgets/banner/shape.png');
   }
 
+  .lg\:bg-arrow-right {
+    background-image: url('../images/widgets/card_news/arrow-right.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -116967,7 +116983,7 @@ video {
   }
 
   .lg\:font-tahu {
-    font-family: Tahu;
+    font-family: Tahu!;
   }
 
   .lg\:font-gotham {
@@ -143767,6 +143783,10 @@ video {
     background-image: url('../images/widgets/banner/shape.png');
   }
 
+  .xl\:bg-arrow-right {
+    background-image: url('../images/widgets/card_news/arrow-right.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -148333,7 +148353,7 @@ video {
   }
 
   .xl\:font-tahu {
-    font-family: Tahu;
+    font-family: Tahu!;
   }
 
   .xl\:font-gotham {
@@ -175133,6 +175153,10 @@ video {
     background-image: url('../images/widgets/banner/shape.png');
   }
 
+  .\32xl\:bg-arrow-right {
+    background-image: url('../images/widgets/card_news/arrow-right.png');
+  }
+
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -179699,7 +179723,7 @@ video {
   }
 
   .\32xl\:font-tahu {
-    font-family: Tahu;
+    font-family: Tahu!;
   }
 
   .\32xl\:font-gotham {

@@ -3,9 +3,8 @@ import React from "react";
 const Event1 = ({ styled }) => {
     return (
         <div id="event-1" className={`${styled.event1.xxl} border-8 border-solid border-gray-800`}>
-            <div className="grid grid-rows-12 h-full">
+            <div className="grid grid-rows-auto h-full">
                 <div className="bg-logo-ig-1 bg-no-repeat bg-bottom row-span-3 border-4 border-gray-800 border-solid">
-                    bg-vector-1
                 </div>
                 <div className="bg-logo-live-1 bg-no-repeat bg-center border-4 border-gray-800 border-solid">
                     
@@ -17,13 +16,9 @@ const Event1 = ({ styled }) => {
                         @bisniscom
                     </span>
                 </div>
-                <div className="grid grid-rows-2 border-4 border-gray-800 border-solid">
-                    <div className="text-white text-center text-2xl  border-4 border-gray-800 border-solid">
-                        17 Agustus 2020
-                    </div>
-                    <div className="text-white text-center border-4 border-gray-800 border-solid">
-                        11.00 wib
-                    </div>
+                <div className="text-white text-center text-2xl  border-4 border-gray-800 border-solid">
+                    <p>17 Agustus 2020</p>
+                    <p>11.00 wib</p>
                 </div>
                 <div className="text-white text-center text-xs border-4 border-gray-800 border-solid">
                     SPIRIT MEMBANGUN INDONESIA

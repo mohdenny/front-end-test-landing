@@ -13,7 +13,7 @@ module.exports = {
       '2xl': '1536px',
     },
     fontFamily: {
-      'tahu': ['Tahu'],
+      'tahu': ['Tahu!'],
       'gotham': ['Gotham Book'],
     },
     extend: {
@@ -60,6 +60,7 @@ module.exports = {
         'speaker-2-2': "url('../images/widgets/instagram_2/speaker2.png')",
         'presiden-banner': "url('../images/widgets/banner/presiden.png')",
         'shape': "url('../images/widgets/banner/shape.png')",
+        'arrow-right': "url('../images/widgets/card_news/arrow-right.png')",
       }
     },
   },
