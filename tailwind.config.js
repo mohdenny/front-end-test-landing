@@ -12,11 +12,11 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
     },
+    fontFamily: {
+      'tahu': ['tahu'],
+      'gotham': ['Gotham'],
+    },
     extend: {
-      fontFamily: {
-        'tahu': ['tahu'],
-        'gotham': ['Gotham'],
-      },
       fontSize: {
         '2xs': '0.5rem',
         '3xs': '0.4rem',

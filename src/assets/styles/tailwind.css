@@ -602,13 +602,14 @@ video {
 @font-face {
   font-family: 'tahu';
 
-  src: local('Tahu!'), url(../fonts/Tahu.ttf) format('ttf');
+  src: local('Tahu!'), url(../../../public/fonts/Tahu.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'Gotham';
 
-  src: local('Gotham'), url(../fonts/GothamBook.ttf) format('ttf');
+  src: local('Gotham'),
+      url(../../../public/fonts/GothamBook.ttf) format('ttf');
 }
 
 .container {
@@ -22512,18 +22513,6 @@ video {
 
 .align-text-bottom {
   vertical-align: text-bottom;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-tahu {
@@ -54244,18 +54233,6 @@ video {
     vertical-align: text-bottom;
   }
 
-  .sm\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .sm\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
   .sm\:font-tahu {
     font-family: tahu;
   }
@@ -85620,18 +85597,6 @@ video {
 
   .md\:align-text-bottom {
     vertical-align: text-bottom;
-  }
-
-  .md\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .md\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .md\:font-tahu {
@@ -117000,18 +116965,6 @@ video {
     vertical-align: text-bottom;
   }
 
-  .lg\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .lg\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
   .lg\:font-tahu {
     font-family: tahu;
   }
@@ -148378,18 +148331,6 @@ video {
     vertical-align: text-bottom;
   }
 
-  .xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
   .xl\:font-tahu {
     font-family: tahu;
   }
@@ -179754,18 +179695,6 @@ video {
 
   .\32xl\:align-text-bottom {
     vertical-align: text-bottom;
-  }
-
-  .\32xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .\32xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .\32xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .\32xl\:font-tahu {
