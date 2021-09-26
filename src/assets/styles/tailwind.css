@@ -6510,6 +6510,22 @@ video {
   height: 175px;
 }
 
+.h-logo-bank-btn {
+  height: 73px;
+}
+
+.h-logo-waskita {
+  height: 70px;
+}
+
+.h-top-arrow {
+  height: 27px;
+}
+
+.h-logo-bisnis-bottom {
+  height: 35px;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -17988,6 +18004,26 @@ video {
 
 .bg-thumb-3 {
   background-image: url('../images/widgets/card_news/thumb-3.png');
+}
+
+.bg-hr {
+  background-image: url('../images/footers/hr.png');
+}
+
+.bg-logo-bisnis-bottom {
+  background-image: url('../images/footers/logo-bisnis-bottom.png');
+}
+
+.bg-logo-bank-btn {
+  background-image: url('../images/footers/logo-bank-btn.png');
+}
+
+.bg-logo-waskita {
+  background-image: url('../images/footers/logo-waskita.png');
+}
+
+.bg-top-arrow {
+  background-image: url('../images/footers/top-arrow.png');
 }
 
 .from-transparent {
@@ -38334,6 +38370,22 @@ video {
     height: 175px;
   }
 
+  .sm\:h-logo-bank-btn {
+    height: 73px;
+  }
+
+  .sm\:h-logo-waskita {
+    height: 70px;
+  }
+
+  .sm\:h-top-arrow {
+    height: 27px;
+  }
+
+  .sm\:h-logo-bisnis-bottom {
+    height: 35px;
+  }
+
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -49738,6 +49790,26 @@ video {
 
   .sm\:bg-thumb-3 {
     background-image: url('../images/widgets/card_news/thumb-3.png');
+  }
+
+  .sm\:bg-hr {
+    background-image: url('../images/footers/hr.png');
+  }
+
+  .sm\:bg-logo-bisnis-bottom {
+    background-image: url('../images/footers/logo-bisnis-bottom.png');
+  }
+
+  .sm\:bg-logo-bank-btn {
+    background-image: url('../images/footers/logo-bank-btn.png');
+  }
+
+  .sm\:bg-logo-waskita {
+    background-image: url('../images/footers/logo-waskita.png');
+  }
+
+  .sm\:bg-top-arrow {
+    background-image: url('../images/footers/top-arrow.png');
   }
 
   .sm\:from-transparent {
@@ -69732,6 +69804,22 @@ video {
     height: 175px;
   }
 
+  .md\:h-logo-bank-btn {
+    height: 73px;
+  }
+
+  .md\:h-logo-waskita {
+    height: 70px;
+  }
+
+  .md\:h-top-arrow {
+    height: 27px;
+  }
+
+  .md\:h-logo-bisnis-bottom {
+    height: 35px;
+  }
+
   .md\:max-h-0 {
     max-height: 0px;
   }
@@ -81136,6 +81224,26 @@ video {
 
   .md\:bg-thumb-3 {
     background-image: url('../images/widgets/card_news/thumb-3.png');
+  }
+
+  .md\:bg-hr {
+    background-image: url('../images/footers/hr.png');
+  }
+
+  .md\:bg-logo-bisnis-bottom {
+    background-image: url('../images/footers/logo-bisnis-bottom.png');
+  }
+
+  .md\:bg-logo-bank-btn {
+    background-image: url('../images/footers/logo-bank-btn.png');
+  }
+
+  .md\:bg-logo-waskita {
+    background-image: url('../images/footers/logo-waskita.png');
+  }
+
+  .md\:bg-top-arrow {
+    background-image: url('../images/footers/top-arrow.png');
   }
 
   .md\:from-transparent {
@@ -101130,6 +101238,22 @@ video {
     height: 175px;
   }
 
+  .lg\:h-logo-bank-btn {
+    height: 73px;
+  }
+
+  .lg\:h-logo-waskita {
+    height: 70px;
+  }
+
+  .lg\:h-top-arrow {
+    height: 27px;
+  }
+
+  .lg\:h-logo-bisnis-bottom {
+    height: 35px;
+  }
+
   .lg\:max-h-0 {
     max-height: 0px;
   }
@@ -112534,6 +112658,26 @@ video {
 
   .lg\:bg-thumb-3 {
     background-image: url('../images/widgets/card_news/thumb-3.png');
+  }
+
+  .lg\:bg-hr {
+    background-image: url('../images/footers/hr.png');
+  }
+
+  .lg\:bg-logo-bisnis-bottom {
+    background-image: url('../images/footers/logo-bisnis-bottom.png');
+  }
+
+  .lg\:bg-logo-bank-btn {
+    background-image: url('../images/footers/logo-bank-btn.png');
+  }
+
+  .lg\:bg-logo-waskita {
+    background-image: url('../images/footers/logo-waskita.png');
+  }
+
+  .lg\:bg-top-arrow {
+    background-image: url('../images/footers/top-arrow.png');
   }
 
   .lg\:from-transparent {
@@ -132528,6 +132672,22 @@ video {
     height: 175px;
   }
 
+  .xl\:h-logo-bank-btn {
+    height: 73px;
+  }
+
+  .xl\:h-logo-waskita {
+    height: 70px;
+  }
+
+  .xl\:h-top-arrow {
+    height: 27px;
+  }
+
+  .xl\:h-logo-bisnis-bottom {
+    height: 35px;
+  }
+
   .xl\:max-h-0 {
     max-height: 0px;
   }
@@ -143932,6 +144092,26 @@ video {
 
   .xl\:bg-thumb-3 {
     background-image: url('../images/widgets/card_news/thumb-3.png');
+  }
+
+  .xl\:bg-hr {
+    background-image: url('../images/footers/hr.png');
+  }
+
+  .xl\:bg-logo-bisnis-bottom {
+    background-image: url('../images/footers/logo-bisnis-bottom.png');
+  }
+
+  .xl\:bg-logo-bank-btn {
+    background-image: url('../images/footers/logo-bank-btn.png');
+  }
+
+  .xl\:bg-logo-waskita {
+    background-image: url('../images/footers/logo-waskita.png');
+  }
+
+  .xl\:bg-top-arrow {
+    background-image: url('../images/footers/top-arrow.png');
   }
 
   .xl\:from-transparent {
@@ -163926,6 +164106,22 @@ video {
     height: 175px;
   }
 
+  .\32xl\:h-logo-bank-btn {
+    height: 73px;
+  }
+
+  .\32xl\:h-logo-waskita {
+    height: 70px;
+  }
+
+  .\32xl\:h-top-arrow {
+    height: 27px;
+  }
+
+  .\32xl\:h-logo-bisnis-bottom {
+    height: 35px;
+  }
+
   .\32xl\:max-h-0 {
     max-height: 0px;
   }
@@ -175330,6 +175526,26 @@ video {
 
   .\32xl\:bg-thumb-3 {
     background-image: url('../images/widgets/card_news/thumb-3.png');
+  }
+
+  .\32xl\:bg-hr {
+    background-image: url('../images/footers/hr.png');
+  }
+
+  .\32xl\:bg-logo-bisnis-bottom {
+    background-image: url('../images/footers/logo-bisnis-bottom.png');
+  }
+
+  .\32xl\:bg-logo-bank-btn {
+    background-image: url('../images/footers/logo-bank-btn.png');
+  }
+
+  .\32xl\:bg-logo-waskita {
+    background-image: url('../images/footers/logo-waskita.png');
+  }
+
+  .\32xl\:bg-top-arrow {
+    background-image: url('../images/footers/top-arrow.png');
   }
 
   .\32xl\:from-transparent {

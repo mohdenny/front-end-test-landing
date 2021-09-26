@@ -40,6 +40,10 @@ module.exports = {
         'arrow-right' : '10px',
         'card-news' : '428px',
         'thumb' : '175px',
+        'logo-bank-btn' : '73px',
+        'logo-waskita' : '70px',
+        'top-arrow': '27px',
+        'logo-bisnis-bottom': '35px'
       },
       backgroundImage: {
         'shape-red': "url('../images/heros/shape_red.png')",
@@ -68,6 +72,11 @@ module.exports = {
         'thumb-1': "url('../images/widgets/card_news/thumb-1.png')",
         'thumb-2': "url('../images/widgets/card_news/thumb-2.png')",
         'thumb-3': "url('../images/widgets/card_news/thumb-3.png')",
+        'hr': "url('../images/footers/hr.png')",
+        'logo-bisnis-bottom': "url('../images/footers/logo-bisnis-bottom.png')",
+        'logo-bank-btn': "url('../images/footers/logo-bank-btn.png')",
+        'logo-waskita': "url('../images/footers/logo-waskita.png')",
+        'top-arrow': "url('../images/footers/top-arrow.png')",
       }
     },
   },
