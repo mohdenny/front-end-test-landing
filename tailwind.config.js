@@ -13,7 +13,7 @@ module.exports = {
       '2xl': '1536px',
     },
     fontFamily: {
-      'tahu': ['tahu'],
+      'tahu': ['Tahu!'],
       'gotham': ['Gotham Book'],
     },
     extend: {
