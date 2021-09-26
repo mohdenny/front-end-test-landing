@@ -5,7 +5,7 @@ import Event2 from './events/Event2';
 
 const Instagram = () => {
     return (
-        <div id="instagram" className="2xl:grid 2xl:grid-cols-12 2xl:gap-8 2xl:my-8 border-8 border-solid border-gray-800">
+        <div id="instagram" className={`${styled.instagram.xxl} ${styled.instagram.xl} ${styled.instagram.lg} ${styled.instagram.md} ${styled.instagram.sm} ${styled.instagram.mobile}`}>
             <Event1 styled={styled}/>
             <Event2 styled={styled}/>
         </div>

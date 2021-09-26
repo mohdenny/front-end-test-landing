@@ -2,7 +2,7 @@ import React from "react";
 
 const Event2 = ({ styled }) => {
     return (
-        <div id="event-2" className={`${styled.event2.xxl} border-8 border-solid border-gray-800`}>
+        <div id="event-2" className={`${styled.event2.xxl} ${styled.event2.xl} ${styled.event2.lg} ${styled.event2.md} ${styled.event2.sm} ${styled.event2.mobile} border-8 border-solid border-gray-800`}>
             <div className="grid grid-rows-auto h-full">
                 <div className="bg-logo-ig-2 bg-no-repeat bg-bottom row-span-3 border-4 border-gray-800 border-solid">
                 </div>

@@ -103,10 +103,60 @@ export const styled = {
         sm: 'sm:row-start-7 sm:bg-icon-player sm:bg-no-repeat sm:bg-contain sm:h-4 sm:w-4',
         mobile: 'row-start-7 bg-icon-player bg-no-repeat bg-contain h-4 w-4'
     },
+    instagram: {
+        xxl: '2xl:grid 2xl:grid-cols-12 2xl:gap-8 2xl:my-8',
+        xl: 'xl:grid xl:grid-cols-12 xl:gap-8 xl:my-8',
+        lg: 'lg:grid lg:grid-cols-12 lg:gap-8 lg:my-8',
+        md: 'md:grid md:grid-cols-12 md:gap-8 md:my-8',
+        sm: 'sm:grid sm:grid-cols-12 sm:gap-8 sm:my-8',
+        mobile: 'mobile:grid mobile:grid-cols-12 mobile:gap-8 mobile:my-8'
+    },
     event1: {
-        xxl: '2xl:bg-event-1-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-3 2xl:col-span-4'
+        xxl: '2xl:bg-event-1-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-3 2xl:col-span-4',
+        xl: 'xl:bg-event-1-ig xl:bg-no-repeat xl:bg-center xl:bg-contain xl:h-event-xl xl:col-start-3 xl:col-span-4',
+        lg: 'lg:bg-event-1-ig lg:bg-no-repeat lg:bg-center lg:bg-contain lg:h-event-lg lg:col-start-3 lg:col-span-4',
+        md: 'md:bg-event-1-ig md:bg-no-repeat md:bg-center md:bg-contain md:h-event-md md:col-start-3 md:col-span-4',
+        sm: 'sm:bg-event-1-ig sm:bg-no-repeat sm:bg-center sm:bg-contain sm:h-event-sm sm:col-start-3 sm:col-span-4',
+        mobile: 'bg-event-1-ig bg-no-repeat bg-center bg-contain h-event-2xl col-start-3 col-span-4'
+    },
+    logoIg: {
+        xxl: '2xl:bg-logo-ig-1 2xl:bg-no-repeat 2xl:h-logo-ig-2xl 2xl:mt-10 2xl:bg-bottom 2xl:row-span-3',
+        xl: 'xl:bg-logo-ig-1 xl:bg-no-repeat xl:h-logo-ig-xl xl:bg-bottom xl:row-span-3',
+        lg: 'lg:bg-logo-ig-1 lg:bg-no-repeat lg:h-logo-ig-lg lg:bg-bottom lg:row-span-3',
+        md: 'md:bg-logo-ig-1 md:bg-no-repeat md:h-logo-ig-md md:bg-bottom md:row-span-3',
+        sm: 'sm:bg-logo-ig-1 sm:bg-no-repeat sm:h-logo-ig-sm sm:bg-bottom sm:row-span-3',
+        mobile: 'bg-logo-ig-1 bg-no-repeat h-logo-ig-2xl bg-bottom row-span-3',
+    },
+    bgSpeaker1: {
+        xxl: '2xl:bg-speaker-1-1 2xl:bg-no-repeat 2xl:bg-contain 2xl:bg-center 2xl:h-speaker-2xl',
+        xl: 'xl:bg-speaker-1-1 xl:bg-no-repeat xl:bg-contain xl:bg-center xl:h-speaker-xl',
+        lg: 'lg:bg-speaker-1-1 lg:bg-no-repeat lg:bg-contain lg:bg-center lg:h-speaker-lg',
+        md: 'md:bg-speaker-1-1 md:bg-no-repeat md:bg-contain md:bg-center md:h-speaker-md',
+        sm: 'sm:bg-speaker-1-1 sm:bg-no-repeat sm:bg-contain sm:bg-center sm:h-speaker-sm',
+        mobile: 'bg-speaker-1-1 bg-no-repeat bg-contain bg-center h-speaker-2xl',
+    },
+    bgSpeaker2: {
+        xxl: '2xl:bg-speaker-1-2 2xl:bg-no-repeat 2xl:bg-contain 2xl:bg-center 2xl:h-speaker-2xl',
+        xl: 'xl:bg-speaker-1-2 xl:bg-no-repeat xl:bg-contain xl:bg-center xl:h-speaker-xl',
+        lg: 'lg:bg-speaker-1-2 lg:bg-no-repeat lg:bg-contain lg:bg-center lg:h-speaker-lg',
+        md: 'md:bg-speaker-1-2 md:bg-no-repeat md:bg-contain md:bg-center md:h-speaker-md',
+        sm: 'sm:bg-speaker-1-2 sm:bg-no-repeat sm:bg-contain sm:bg-center sm:h-speaker-sm',
+        mobile: 'bg-speaker-1-2 bg-no-repeat bg-contain bg-center h-speaker-2xl',
+    },
+    nameSpeaker: {
+        xxl: '2xl:bg-bg-name-speaker1 2xl:bg-no-repeat 2xl:bg-auto 2xl:bg-center 2xl:text-center 2xl:text-white',
+        xl: 'xl:bg-bg-name-speaker1 xl:bg-no-repeat xl:bg-auto xl:bg-center xl:text-center xl:text-white',
+        lg: 'lg:bg-bg-name-speaker1 lg:bg-no-repeat lg:bg-auto lg:bg-center lg:text-center lg:text-white',
+        md: 'md:bg-bg-name-speaker1 md:bg-no-repeat md:bg-auto md:bg-center md:text-center md:text-white',
+        sm: 'sm:bg-bg-name-speaker1 sm:bg-no-repeat sm:bg-auto sm:bg-center sm:text-center sm:text-white',
+        mobile: 'bg-bg-name-speaker1 bg-no-repeat bg-auto bg-center text-center text-white',
     },
     event2: {
-        xxl: '2xl:bg-event-2-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-7 2xl:col-span-4'
+        xxl: '2xl:bg-event-2-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-7 2xl:col-span-4',
+        xl: 'xl:bg-event-2-ig xl:bg-no-repeat xl:bg-center xl:bg-contain xl:h-event-xl xl:col-start-7 xl:col-span-4',
+        lg: 'lg:bg-event-2-ig lg:bg-no-repeat lg:bg-center lg:bg-contain lg:h-event-lg lg:col-start-7 lg:col-span-4',
+        md: 'md:bg-event-2-ig md:bg-no-repeat md:bg-center md:bg-contain md:h-event-md md:col-start-7 md:col-span-4',
+        sm: 'sm:bg-event-2-ig sm:bg-no-repeat sm:bg-center sm:bg-contain sm:h-event-sm sm:col-start-7 sm:col-span-4',
+        mobile: 'bg-event-2-ig bg-no-repeat bg-center bg-contain h-event-2xl col-start-7 col-span-4'
     }
 }
