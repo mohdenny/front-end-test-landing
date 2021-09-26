@@ -602,8 +602,7 @@ video {
 @font-face {
   font-family: 'tahu';
 
-  src: url('http://fonts.cdnfonts.com/css/tahu'),
-      url(../fonts/Tahu.ttf) format('ttf');
+  src: local('Tahu!'), url(../fonts/Tahu.ttf) format('ttf');
 }
 
 @font-face {
