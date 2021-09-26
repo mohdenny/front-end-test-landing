@@ -17,10 +17,8 @@ const Event2 = ({ styled }) => {
                     </span>
                 </div>
                 <div className="text-white text-center text-2xl  border-4 border-gray-800 border-solid">
-                    17 Agustus 2020
-                </div>
-                <div className="text-white text-center border-4 border-gray-800 border-solid">
-                    11.00 wib
+                    <p>17 Agustus 2020</p>
+                    <p>15.00 wib</p>
                 </div>
                 <div className="text-white text-center text-xs border-4 border-gray-800 border-solid">
                     SPIRIT MEMBANGUN INDONESIA

@@ -13,8 +13,7 @@ module.exports = {
       '2xl': '1536px',
     },
     fontFamily: {
-      'tahu-local': ['Tahu'],
-      'tahu': ['Tahu!'],
+      'tahu': ['Tahu'],
       'gotham': ['Gotham Book'],
     },
     extend: {
@@ -38,6 +37,9 @@ module.exports = {
         'event-2xl' : '627px',
         'speaker-2xl' : '103px',
         'presiden-banner' : '310px',
+        'arrow-right' : '10px',
+        'card-news' : '428px',
+        'thumb' : '175px',
       },
       backgroundImage: {
         'shape-red': "url('../images/heros/shape_red.png')",
@@ -62,6 +64,10 @@ module.exports = {
         'presiden-banner': "url('../images/widgets/banner/presiden.png')",
         'shape': "url('../images/widgets/banner/shape.png')",
         'arrow-right': "url('../images/widgets/card_news/arrow-right.png')",
+        'card-news': "url('../images/widgets/card_news/card-news.png')",
+        'thumb-1': "url('../images/widgets/card_news/thumb-1.png')",
+        'thumb-2': "url('../images/widgets/card_news/thumb-2.png')",
+        'thumb-3': "url('../images/widgets/card_news/thumb-3.png')",
       }
     },
   },

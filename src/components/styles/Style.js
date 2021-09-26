@@ -56,12 +56,12 @@ export const styled = {
         mobile: 'grid grid-cols-auto text-center text-white w-full h-full mt-14 gap-6'
     },
     headline: {
-        xxl: '2xl:font-tahu-local 2xl:font-tahu 2xl:text-8xl 2xl:h-full',
-        xl: 'xl:font-tahu-local xl:font-tahu xl:text-7xl xl:h-full',
-        lg: 'lg:font-tahu-local lg:font-tahu lg:text-6xl lg:h-full',
-        md: 'md:font-tahu-local md:font-tahu md:text-5xl md:h-18',
-        sm: 'sm:font-tahu-local sm:font-tahu sm:text-4xl sm:h-12',
-        mobile: 'font-tahu-local font-tahu text-5xl h-full'
+        xxl: '2xl:font-tahu 2xl:text-8xl 2xl:h-full',
+        xl: 'xl:font-tahu xl:text-7xl xl:h-full',
+        lg: 'lg:font-tahu lg:text-6xl lg:h-full',
+        md: 'md:font-tahu md:text-5xl md:h-18',
+        sm: 'sm:font-tahu sm:text-4xl sm:h-12',
+        mobile: 'font-tahu text-5xl h-full'
     },
     subHeadline: {
         xxl: '2xl:h-full 2xl:px-4 2xl:py-2 2xl:text-white 2xl:font-gotham 2xl:text-base',
@@ -71,7 +71,7 @@ export const styled = {
         sm: 'sm:h-full sm:px-4 sm:py-2 sm:text-white sm:font-gotham sm:text-2xs',
         mobile: 'h-full px-4 py-2 text-white font-gotham text-xs'
     },
-    main: {
+    content: {
         xxl: '2xl:transform 2xl:-translate-y-72 ',
         xl: 'xl:transform xl:-translate-y-60',
         lg: 'xl:transform lg:-translate-y-48',
