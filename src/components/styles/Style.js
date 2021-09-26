@@ -104,6 +104,9 @@ export const styled = {
         mobile: 'row-start-7 bg-icon-player bg-no-repeat bg-contain h-4 w-4'
     },
     event1: {
-        xxl: '2xl:bg-event-1-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event1-2xl 2xl:col-start-3 2xl:col-span-4'
+        xxl: '2xl:bg-event-1-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-3 2xl:col-span-4'
+    },
+    event2: {
+        xxl: '2xl:bg-event-2-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-7 2xl:col-span-4'
     }
 }
