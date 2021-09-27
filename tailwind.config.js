@@ -34,6 +34,7 @@ module.exports = {
         'video-thumb-lg' : '350px',
         'video-thumb-xl' : '460px',
         'video-thumb-2xl' : '543px',
+        'event-lg' : '1000px',
         'event-xl' : '527px',
         'event-2xl' : '627px',
         'logo-ig-sm' : '16px',

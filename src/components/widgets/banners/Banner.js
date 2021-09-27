@@ -1,13 +1,14 @@
 import React from "react";
+import { styled } from '../../styles/Style';
 
 const Banner = () => {
     return (
-        <div id="banner" className="grid grid-cols-12 mb-8">
-            <div id="text" className="bg-shape bg-no-repeat bg-contain h-presiden-banner col-start-3 col-end-11 ">
-                <div id="text" className="bg-presiden-banner bg-no-repeat bg-contain h-presiden-banner grid grid-rows-auto col-start-3 col-end-11 text-white text-center">
+        <div id="banner" className={`${styled.banner.xxl} ${styled.banner.xl} ${styled.banner.lg} ${styled.banner.md} ${styled.banner.sm} ${styled.banner.mobile}`}>
+            <div id="banner-text" className={`${styled.bannerText.xxl} ${styled.bannerText.xl} ${styled.bannerText.lg} ${styled.bannerText.md} ${styled.bannerText.sm} ${styled.bannerText.mobile}`}>
+                <div id="banner-bg" className={`${styled.bannerBg.xxl} ${styled.bannerBg.xl} ${styled.bannerBg.lg} ${styled.bannerBg.md} ${styled.bannerBg.sm} ${styled.bannerBg.mobile}`}>
                     <div className="row-start-2">
-                        <p className="-mt-8">75 Tahun Indonesia Merdeka</p>
-                        <p className="text-6xl">"BAGIMU NEGERI"</p>
+                        <p className="2xl:-mt-8 xl:-mt-16">75 Tahun Indonesia Merdeka</p>
+                        <p className="2xl:text-6xl xl:text-5xl">"BAGIMU NEGERI"</p>
                     </div>
                 </div>
             </div>

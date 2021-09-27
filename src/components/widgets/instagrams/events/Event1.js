@@ -4,9 +4,9 @@ const Event1 = ({ styled }) => {
     return (
         <div id="event-1" className={`${styled.event1.xxl} ${styled.event1.xl} ${styled.event1.lg} ${styled.event1.md} ${styled.event1.sm} ${styled.event1.mobile} border-8 border-solid border-gray-800`}>
             <div className="grid grid-rows-auto h-full">
-                <div className={`${styled.logoIg.xxl} ${styled.logoIg.xl} ${styled.logoIg.lg} ${styled.logoIg.md} ${styled.logoIg.sm} ${styled.logoIg.mobile} border-4 border-gray-800 border-solid`}>
+                <div className={`${styled.logoIg.xxl} ${styled.logoIg.xl} ${styled.logoIg.lg} ${styled.logoIg.md} ${styled.logoIg.sm} ${styled.logoIg.mobile}`}>
                 </div>
-                <div className="bg-logo-live-1 bg-no-repeat bg-center border-4 border-gray-800 border-solid">
+                <div className="bg-logo-live-1 h-10 xl:h-6 bg-no-repeat bg-center">
                     
                 </div>
                 <div className="grid grid-cols-12 border-4 border-gray-800 border-solid">

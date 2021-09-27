@@ -4,9 +4,9 @@ const Event2 = ({ styled }) => {
     return (
         <div id="event-2" className={`${styled.event2.xxl} ${styled.event2.xl} ${styled.event2.lg} ${styled.event2.md} ${styled.event2.sm} ${styled.event2.mobile} border-8 border-solid border-gray-800`}>
             <div className="grid grid-rows-auto h-full">
-                <div className="bg-logo-ig-2 bg-no-repeat bg-bottom row-span-3 border-4 border-gray-800 border-solid">
+                <div className={`${styled.logoIg.xxl} ${styled.logoIg.xl} ${styled.logoIg.lg} ${styled.logoIg.md} ${styled.logoIg.sm} ${styled.logoIg.mobile}`}>
                 </div>
-                <div className="bg-logo-live-2 bg-no-repeat bg-center border-4 border-gray-800 border-solid">
+                <div className="bg-logo-live-2 bg-no-repeat h-10 xl:h-6 bg-center">
                     
                 </div>
                 <div className="grid grid-cols-12 border-4 border-gray-800 border-solid">
@@ -33,7 +33,7 @@ const Event2 = ({ styled }) => {
                     <div className="border-4 h-auto border-gray-800 border-solid">
                         <div className="bg-speaker-1-2 bg-no-repeat bg-contain bg-center h-speaker-2xl border-4 border-gray-800 border-solid">
                         </div>
-                        <div className="bg-bg-name-speaker2 bg-no-repeat bg-contain bg-center text-center text-white border-4 border-gray-800 border-solid">
+                        <div className={`${styled.nameSpeaker.xxl} ${styled.nameSpeaker.xl} ${styled.nameSpeaker.lg} ${styled.nameSpeaker.md} ${styled.nameSpeaker.sm} ${styled.nameSpeaker.mobile}`}>
                             Narasumber
                         </div>
                         <div className=" text-center text-white text-xs border-4 border-gray-800 border-solid">
@@ -43,7 +43,7 @@ const Event2 = ({ styled }) => {
                     <div className="border-4 h-auto border-gray-800 border-solid">
                         <div className="bg-speaker-2-2 bg-no-repeat bg-contain bg-center h-speaker-2xl border-4 border-gray-800 border-solid">
                         </div>
-                        <div className="bg-bg-name-speaker2 bg-no-repeat bg-contain bg-center text-center text-white border-4 border-gray-800 border-solid">
+                        <div className={`${styled.nameSpeaker.xxl} ${styled.nameSpeaker.xl} ${styled.nameSpeaker.lg} ${styled.nameSpeaker.md} ${styled.nameSpeaker.sm} ${styled.nameSpeaker.mobile}`}>
                             Host
                         </div>
                         <div className=" text-center text-white text-xs border-4 border-gray-800 border-solid">

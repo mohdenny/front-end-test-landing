@@ -72,12 +72,12 @@ export const styled = {
         mobile: 'h-full px-4 py-2 text-white font-gotham text-xs'
     },
     content: {
-        xxl: '2xl:transform 2xl:-translate-y-72 ',
-        xl: 'xl:transform xl:-translate-y-60',
-        lg: 'xl:transform lg:-translate-y-48',
-        md: 'md:transform md:-translate-y-36',
-        sm: 'sm:transform sm:-translate-y-32 ',
-        mobile: 'transform -translate-y-24 '
+        xxl: '2xl:container 2xl:mx-auto 2xl:px-8 2xl:transform 2xl:-translate-y-72 ',
+        xl: 'xl:container xl:mx-auto xl:px-8 xl:transform xl:-translate-y-60',
+        lg: 'lg:container lg:mx-auto lg:px-8 xl:transform lg:-translate-y-48',
+        md: 'md:container md:mx-auto md:px-8 md:transform md:-translate-y-36',
+        sm: 'sm:container sm:mx-auto sm:px-8 sm:transform sm:-translate-y-32 ',
+        mobile: 'container mx-auto px-8 transform -translate-y-24 '
     },
     videoBody: {
         xxl: '2xl:grid 2xl:grid-cols-12 2xl:h-auto 2xl:w-full ',
@@ -106,22 +106,22 @@ export const styled = {
     instagram: {
         xxl: '2xl:grid 2xl:grid-cols-12 2xl:gap-8 2xl:my-8',
         xl: 'xl:grid xl:grid-cols-12 xl:gap-8 xl:my-8',
-        lg: 'lg:grid lg:grid-cols-12 lg:gap-8 lg:my-8',
+        lg: 'lg:grid lg:grid-rows-auto lg:gap-8 ',
         md: 'md:grid md:grid-cols-12 md:gap-8 md:my-8',
         sm: 'sm:grid sm:grid-cols-12 sm:gap-8 sm:my-8',
-        mobile: 'mobile:grid mobile:grid-cols-12 mobile:gap-8 mobile:my-8'
+        mobile: 'grid grid-cols-12 gap-8 my-8'
     },
     event1: {
         xxl: '2xl:bg-event-1-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-3 2xl:col-span-4',
         xl: 'xl:bg-event-1-ig xl:bg-no-repeat xl:bg-center xl:bg-contain xl:h-event-xl xl:col-start-3 xl:col-span-4',
-        lg: 'lg:bg-event-1-ig lg:bg-no-repeat lg:bg-center lg:bg-contain lg:h-event-lg lg:col-start-3 lg:col-span-4',
+        lg: 'lg:bg-event-1-ig lg:bg-no-repeat lg:bg-center lg:bg-contain lg:h-event-lg',
         md: 'md:bg-event-1-ig md:bg-no-repeat md:bg-center md:bg-contain md:h-event-md md:col-start-3 md:col-span-4',
         sm: 'sm:bg-event-1-ig sm:bg-no-repeat sm:bg-center sm:bg-contain sm:h-event-sm sm:col-start-3 sm:col-span-4',
         mobile: 'bg-event-1-ig bg-no-repeat bg-center bg-contain h-event-2xl col-start-3 col-span-4'
     },
     logoIg: {
-        xxl: '2xl:bg-logo-ig-1 2xl:bg-no-repeat 2xl:h-logo-ig-2xl 2xl:mt-10 2xl:bg-bottom 2xl:row-span-3',
-        xl: 'xl:bg-logo-ig-1 xl:bg-no-repeat xl:h-logo-ig-xl xl:bg-bottom xl:row-span-3',
+        xxl: '2xl:bg-logo-ig-1 2xl:bg-no-repeat 2xl:bg-contain 2xl:mt-10 2xl:h-logo-ig-2xl 2xl:bg-bottom 2xl:row-span-3',
+        xl: 'xl:bg-logo-ig-1 xl:bg-no-repeat xl:bg-contain xl:mt-10 xl:h-logo-ig-xl xl:bg-bottom xl:row-span-3',
         lg: 'lg:bg-logo-ig-1 lg:bg-no-repeat lg:h-logo-ig-lg lg:bg-bottom lg:row-span-3',
         md: 'md:bg-logo-ig-1 md:bg-no-repeat md:h-logo-ig-md md:bg-bottom md:row-span-3',
         sm: 'sm:bg-logo-ig-1 sm:bg-no-repeat sm:h-logo-ig-sm sm:bg-bottom sm:row-span-3',
@@ -154,9 +154,85 @@ export const styled = {
     event2: {
         xxl: '2xl:bg-event-2-ig 2xl:bg-no-repeat 2xl:bg-center 2xl:bg-contain 2xl:h-event-2xl 2xl:col-start-7 2xl:col-span-4',
         xl: 'xl:bg-event-2-ig xl:bg-no-repeat xl:bg-center xl:bg-contain xl:h-event-xl xl:col-start-7 xl:col-span-4',
-        lg: 'lg:bg-event-2-ig lg:bg-no-repeat lg:bg-center lg:bg-contain lg:h-event-lg lg:col-start-7 lg:col-span-4',
+        lg: 'lg:bg-event-2-ig lg:bg-no-repeat lg:bg-center lg:bg-contain lg:h-event-lg',
         md: 'md:bg-event-2-ig md:bg-no-repeat md:bg-center md:bg-contain md:h-event-md md:col-start-7 md:col-span-4',
         sm: 'sm:bg-event-2-ig sm:bg-no-repeat sm:bg-center sm:bg-contain sm:h-event-sm sm:col-start-7 sm:col-span-4',
         mobile: 'bg-event-2-ig bg-no-repeat bg-center bg-contain h-event-2xl col-start-7 col-span-4'
+    },
+    presentedBy: {
+        xxl: '2xl:grid 2xl:grid-cols-12 2xl:mb-32',
+        xl: 'xl:grid xl:grid-cols-12 xl:mb-32',
+        lg: 'lg:grid lg:grid-cols-12 lg:mb-32',
+        md: 'md:grid md:grid-cols-12 md:mb-32',
+        sm: 'sm:grid sm:grid-cols-12 sm:mb-32',
+        mobile: 'grid grid-cols-12 mb-32',
+    },
+    presentedByBody: {
+        xxl: '2xl:col-start-3 2xl:col-end-11',
+        xl: 'xl:col-start-3 xl:col-end-11',
+        lg: 'lg:col-start-3 lg:col-end-11',
+        md: 'md:col-start-3 md:col-end-11',
+        mobile: 'col-start-3 col-end-11',
+    },
+    presentedByText: {
+        xxl: '2xl:text-center',
+        xl: 'xl:text-center',
+        lg: 'lg:text-center',
+        md: 'md:text-center',
+        mobile: 'text-center',
+    },
+    presentedByLogo: {
+        xxl: '2xl:grid 2xl:grid-cols-12',
+        xl: 'xl:grid xl:grid-cols-12',
+        lg: 'lg:grid lg:grid-cols-12',
+        md: 'md:grid md:grid-cols-12',
+        sm: 'sm:grid sm:grid-cols-12',
+        mobile: 'grid grid-cols-12',
+    },
+    presentedByLogoBody: {
+        xxl: '2xl:col-start-5 2xl:col-end-9 2xl:grid 2xl:grid-cols-2',
+        xl: 'xl:col-start-5 xl:col-end-9 xl:grid xl:grid-cols-2',
+        lg: 'lg:col-start-5 lg:col-end-9 lg:grid lg:grid-cols-2',
+        md: 'md:col-start-5 md:col-end-9 md:grid md:grid-cols-2',
+        sm: 'sm:col-start-5 sm:col-end-9 sm:grid sm:grid-cols-2',
+        mobile: 'col-start-5 col-end-9 grid grid-cols-2',
+    },
+    logoBankBtn: {
+        xxl: '2xl:bg-logo-bank-btn 2xl:bg-contain 2xl:bg-no-repeat 2xl:bg-left 2xl:h-logo-bank-btn',
+        xl: 'xl:bg-logo-bank-btn xl:bg-contain xl:bg-no-repeat xl:bg-left xl:h-logo-bank-btn',
+        lg: 'lg:bg-logo-bank-btn lg:bg-contain lg:bg-no-repeat lg:bg-left lg:h-logo-bank-btn',
+        md: 'md:bg-logo-bank-btn md:bg-contain md:bg-no-repeat md:bg-left md:h-logo-bank-btn',
+        sm: 'sm:bg-logo-bank-btn sm:bg-contain sm:bg-no-repeat sm:bg-left sm:h-logo-bank-btn',
+        mobile: 'bg-logo-bank-btn bg-contain bg-no-repeat bg-left h-logo-bank-btn',
+    },
+    logoWaskita: {
+        xxl: '2xl:bg-logo-waskita 2xl:bg-contain 2xl:bg-no-repeat 2xl:bg-right 2xl:h-logo-waskita',
+        xl: 'xl:bg-logo-waskita xl:bg-contain xl:bg-no-repeat xl:bg-right xl:h-logo-waskita',
+        lg: 'lg:bg-logo-waskita lg:bg-contain lg:bg-no-repeat lg:bg-right lg:h-logo-waskita',
+        md: 'md:bg-logo-waskita md:bg-contain md:bg-no-repeat md:bg-right md:h-logo-waskita',
+        mobile: 'mobile:bg-logo-waskita mobile:bg-contain mobile:bg-no-repeat mobile:bg-right mobile:h-logo-waskita',
+    },
+    banner: {
+        xxl: '2xl:grid 2xl:grid-cols-12 2xl:mb-8',
+        xl: 'xl:grid xl:grid-cols-12 xl:mb-1',
+        lg: 'lg:grid lg:grid-cols-12 lg:mb-8',
+        md: 'md:grid md:grid-cols-12 md:mb-8',
+        mobile: 'grid grid-cols-12 mb-8',
+    },
+    bannerText: {
+        xxl: '2xl:bg-shape b2xl:g-no-repeat 2xl:bg-contain 2xl:h-presiden-banner 2xl:col-start-3 2xl:col-end-11',
+        xl: 'xl:bg-shape bxl:g-no-repeat xl:bg-contain xl:h-presiden-banner xl:col-start-3 xl:col-end-11',
+        lg: 'lg:bg-shape blg:g-no-repeat lg:bg-contain lg:h-presiden-banner lg:col-start-3 lg:col-end-11',
+        md: 'md:bg-shape bmd:g-no-repeat md:bg-contain md:h-presiden-banner md:col-start-3 md:col-end-11',
+        sm: 'sm:bg-shape bsm:g-no-repeat sm:bg-contain sm:h-presiden-banner sm:col-start-3 sm:col-end-11',
+        mobile: 'bg-shape bg-no-repeat bg-contain h-presiden-banner col-start-3 col-end-11',
+    },
+    bannerBg: {
+        xxl: '2xl:bg-presiden-banner 2xl:bg-no-repeat 2xl:bg-contain 2xl:h-presiden-banner 2xl:grid 2xl:grid-rows-auto 2xl:col-start-3 2xl:col-end-11 2xl:text-white 2xl:text-center',
+        xl: 'xl:bg-presiden-banner xl:bg-no-repeat xl:bg-contain xl:h-presiden-banner xl:grid xl:grid-rows-auto xl:col-start-3 xl:col-end-11 xl:text-white xl:text-center',
+        lg: 'lg:bg-presiden-banner lg:bg-no-repeat lg:bg-contain lg:h-presiden-banner lg:grid lg:grid-rows-auto lg:col-start-3 lg:col-end-11 lg:text-white lg:text-center',
+        md: 'md:bg-presiden-banner md:bg-no-repeat md:bg-contain md:h-presiden-banner md:grid md:grid-rows-auto md:col-start-3 md:col-end-11 md:text-white md:text-center',
+        sm: 'sm:bg-presiden-banner sm:bg-no-repeat sm:bg-contain sm:h-presiden-banner sm:grid sm:grid-rows-auto sm:col-start-3 sm:col-end-11 sm:text-white sm:text-center',
+        mobile: 'bg-presiden-banner bg-no-repeat bg-contain h-presiden-banner grid grid-rows-auto col-start-3 col-end-11 text-white text-center',
     }
 }
