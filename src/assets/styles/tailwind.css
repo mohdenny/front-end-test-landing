@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.15 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.16 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -603,21 +603,21 @@ video {
   font-family: 'Tahu';
 
   src: local('Tahu!'),
-      url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
+        url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Tahu!';
 
   src: local('Tahu!'),
-      url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
+        url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Gotham Book';
 
   src: local('Gotham Book'),
-      url('https://fonts.cdnfonts.com/s/13925/GOTHAMBOOK.woff') format('woff');
+        url('https://fonts.cdnfonts.com/s/13925/GOTHAMBOOK.woff') format('woff');
 }
 
 .container {
@@ -651,6 +651,51 @@ video {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
+  }
+}
+
+.debug-screens::before {
+  position: fixed;
+  z-index: 2147483647;
+  bottom: 0;
+  left: 0;
+  padding: .3333333em .5em;
+  font-size: 12px;
+  line-height: 1;
+  font-family: sans-serif;
+  background-color: #C0FFEE;
+  color: black;
+  box-shadow: 0 0 0 1px #fff;
+  content: 'screen: _';
+}
+
+@media (min-width: 640px) {
+  .debug-screens::before {
+    content: 'screen: sm';
+  }
+}
+
+@media (min-width: 768px) {
+  .debug-screens::before {
+    content: 'screen: md';
+  }
+}
+
+@media (min-width: 1024px) {
+  .debug-screens::before {
+    content: 'screen: lg';
+  }
+}
+
+@media (min-width: 1280px) {
+  .debug-screens::before {
+    content: 'screen: xl';
+  }
+}
+
+@media (min-width: 1536px) {
+  .debug-screens::before {
+    content: 'screen: 2xl';
   }
 }
 
@@ -6442,128 +6487,12 @@ video {
   height: 100vh;
 }
 
-.h-hero-xs {
-  height: 500px;
+.h-hero-shape {
+  height: 770px;
 }
 
-.h-hero-sm {
-  height: 340px;
-}
-
-.h-hero-md {
-  height: 410px;
-}
-
-.h-hero-lg {
-  height: 550px;
-}
-
-.h-hero-xl {
-  height: 670px;
-}
-
-.h-hero-2xl {
-  height: 820px;
-}
-
-.h-video-thumb-sm {
-  height: 50px;
-}
-
-.h-video-thumb-md {
-  height: 240px;
-}
-
-.h-video-thumb-lg {
-  height: 350px;
-}
-
-.h-video-thumb-xl {
-  height: 460px;
-}
-
-.h-video-thumb-2xl {
-  height: 543px;
-}
-
-.h-event-xl {
-  height: 527px;
-}
-
-.h-event-2xl {
-  height: 627px;
-}
-
-.h-logo-ig-sm {
-  height: 16px;
-}
-
-.h-logo-ig-md {
-  height: 16px;
-}
-
-.h-logo-ig-lg {
-  height: 26px;
-}
-
-.h-logo-ig-xl {
-  height: 36px;
-}
-
-.h-logo-ig-2xl {
-  height: 46px;
-}
-
-.h-speaker-sm {
-  height: 24px;
-}
-
-.h-speaker-md {
-  height: 44px;
-}
-
-.h-speaker-lg {
-  height: 64px;
-}
-
-.h-speaker-xl {
-  height: 84px;
-}
-
-.h-speaker-2xl {
-  height: 103px;
-}
-
-.h-presiden-banner {
-  height: 310px;
-}
-
-.h-arrow-right {
-  height: 10px;
-}
-
-.h-card-news {
-  height: 428px;
-}
-
-.h-thumb {
-  height: 175px;
-}
-
-.h-logo-bank-btn {
-  height: 73px;
-}
-
-.h-logo-waskita {
-  height: 70px;
-}
-
-.h-top-arrow {
-  height: 27px;
-}
-
-.h-logo-bisnis-bottom {
-  height: 35px;
+.h-hero-pattern {
+  height: 770px;
 }
 
 .max-h-0 {
@@ -17942,128 +17871,16 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-shape-red {
+.bg-hero-shape {
   background-image: url('../images/heros/shape_red.png');
 }
 
-.bg-vector-pattern {
-  background-image: url('../images/heros/vector.png');
-}
-
-.bg-logo-bisnis-top {
+.bg-logo-bisnis {
   background-image: url('../images/heros/logo_bisnis_top.png');
 }
 
-.bg-logo-indonesia-maju-top {
+.bg-logo-indonesia-maju {
   background-image: url('../images/heros/logo_indonesia_maju_top.png');
-}
-
-.bg-video-thumb {
-  background-image: url('../images/heros/video_thumb.png');
-}
-
-.bg-icon-player {
-  background-image: url('../images/heros/icon_player.png');
-}
-
-.bg-event-1-ig {
-  background-image: url('../images/widgets/instagram_1/bg-img.png');
-}
-
-.bg-event-2-ig {
-  background-image: url('../images/widgets/instagram_2/bg-img.png');
-}
-
-.bg-logo-ig-1 {
-  background-image: url('../images/widgets/instagram_1/logo-ig.png');
-}
-
-.bg-logo-live-1 {
-  background-image: url('../images/widgets/instagram_1/logo-live.png');
-}
-
-.bg-logo-ig-tiny-1 {
-  background-image: url('../images/widgets/instagram_1/logo-ig-tiny.png');
-}
-
-.bg-speaker-1-1 {
-  background-image: url('../images/widgets/instagram_1/speaker1.png');
-}
-
-.bg-speaker-2-1 {
-  background-image: url('../images/widgets/instagram_1/speaker2.png');
-}
-
-.bg-bg-name-speaker1 {
-  background-image: url('../images/widgets/instagram_1/bg-name-speaker.png');
-}
-
-.bg-logo-ig-2 {
-  background-image: url('../images/widgets/instagram_2/logo-ig.png');
-}
-
-.bg-logo-live-2 {
-  background-image: url('../images/widgets/instagram_2/logo-live.png');
-}
-
-.bg-logo-ig-tiny-2 {
-  background-image: url('../images/widgets/instagram_2/logo-ig-tiny.png');
-}
-
-.bg-speaker-1-2 {
-  background-image: url('../images/widgets/instagram_2/speaker1.png');
-}
-
-.bg-speaker-2-2 {
-  background-image: url('../images/widgets/instagram_2/speaker2.png');
-}
-
-.bg-presiden-banner {
-  background-image: url('../images/widgets/banner/presiden.png');
-}
-
-.bg-shape {
-  background-image: url('../images/widgets/banner/shape.png');
-}
-
-.bg-arrow-right {
-  background-image: url('../images/widgets/card_news/arrow-right.png');
-}
-
-.bg-card-news {
-  background-image: url('../images/widgets/card_news/card-news.png');
-}
-
-.bg-thumb-1 {
-  background-image: url('../images/widgets/card_news/thumb-1.png');
-}
-
-.bg-thumb-2 {
-  background-image: url('../images/widgets/card_news/thumb-2.png');
-}
-
-.bg-thumb-3 {
-  background-image: url('../images/widgets/card_news/thumb-3.png');
-}
-
-.bg-hr {
-  background-image: url('../images/footers/hr.png');
-}
-
-.bg-logo-bisnis-bottom {
-  background-image: url('../images/footers/logo-bisnis-bottom.png');
-}
-
-.bg-logo-bank-btn {
-  background-image: url('../images/footers/logo-bank-btn.png');
-}
-
-.bg-logo-waskita {
-  background-image: url('../images/footers/logo-waskita.png');
-}
-
-.bg-top-arrow {
-  background-image: url('../images/footers/top-arrow.png');
 }
 
 .from-transparent {
@@ -22631,6 +22448,18 @@ video {
   vertical-align: text-bottom;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .font-tahu {
   font-family: Tahu;
 }
@@ -22702,18 +22531,6 @@ video {
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
-}
-
-.text-2xs {
-  font-size: 0.5rem;
-}
-
-.text-3xs {
-  font-size: 0.4rem;
-}
-
-.text-4xs {
-  font-size: 0.3rem;
 }
 
 .font-thin {
@@ -38342,128 +38159,12 @@ video {
     height: 100vh;
   }
 
-  .sm\:h-hero-xs {
-    height: 500px;
+  .sm\:h-hero-shape {
+    height: 770px;
   }
 
-  .sm\:h-hero-sm {
-    height: 340px;
-  }
-
-  .sm\:h-hero-md {
-    height: 410px;
-  }
-
-  .sm\:h-hero-lg {
-    height: 550px;
-  }
-
-  .sm\:h-hero-xl {
-    height: 670px;
-  }
-
-  .sm\:h-hero-2xl {
-    height: 820px;
-  }
-
-  .sm\:h-video-thumb-sm {
-    height: 50px;
-  }
-
-  .sm\:h-video-thumb-md {
-    height: 240px;
-  }
-
-  .sm\:h-video-thumb-lg {
-    height: 350px;
-  }
-
-  .sm\:h-video-thumb-xl {
-    height: 460px;
-  }
-
-  .sm\:h-video-thumb-2xl {
-    height: 543px;
-  }
-
-  .sm\:h-event-xl {
-    height: 527px;
-  }
-
-  .sm\:h-event-2xl {
-    height: 627px;
-  }
-
-  .sm\:h-logo-ig-sm {
-    height: 16px;
-  }
-
-  .sm\:h-logo-ig-md {
-    height: 16px;
-  }
-
-  .sm\:h-logo-ig-lg {
-    height: 26px;
-  }
-
-  .sm\:h-logo-ig-xl {
-    height: 36px;
-  }
-
-  .sm\:h-logo-ig-2xl {
-    height: 46px;
-  }
-
-  .sm\:h-speaker-sm {
-    height: 24px;
-  }
-
-  .sm\:h-speaker-md {
-    height: 44px;
-  }
-
-  .sm\:h-speaker-lg {
-    height: 64px;
-  }
-
-  .sm\:h-speaker-xl {
-    height: 84px;
-  }
-
-  .sm\:h-speaker-2xl {
-    height: 103px;
-  }
-
-  .sm\:h-presiden-banner {
-    height: 310px;
-  }
-
-  .sm\:h-arrow-right {
-    height: 10px;
-  }
-
-  .sm\:h-card-news {
-    height: 428px;
-  }
-
-  .sm\:h-thumb {
-    height: 175px;
-  }
-
-  .sm\:h-logo-bank-btn {
-    height: 73px;
-  }
-
-  .sm\:h-logo-waskita {
-    height: 70px;
-  }
-
-  .sm\:h-top-arrow {
-    height: 27px;
-  }
-
-  .sm\:h-logo-bisnis-bottom {
-    height: 35px;
+  .sm\:h-hero-pattern {
+    height: 770px;
   }
 
   .sm\:max-h-0 {
@@ -49768,128 +49469,16 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-shape-red {
+  .sm\:bg-hero-shape {
     background-image: url('../images/heros/shape_red.png');
   }
 
-  .sm\:bg-vector-pattern {
-    background-image: url('../images/heros/vector.png');
-  }
-
-  .sm\:bg-logo-bisnis-top {
+  .sm\:bg-logo-bisnis {
     background-image: url('../images/heros/logo_bisnis_top.png');
   }
 
-  .sm\:bg-logo-indonesia-maju-top {
+  .sm\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
-  }
-
-  .sm\:bg-video-thumb {
-    background-image: url('../images/heros/video_thumb.png');
-  }
-
-  .sm\:bg-icon-player {
-    background-image: url('../images/heros/icon_player.png');
-  }
-
-  .sm\:bg-event-1-ig {
-    background-image: url('../images/widgets/instagram_1/bg-img.png');
-  }
-
-  .sm\:bg-event-2-ig {
-    background-image: url('../images/widgets/instagram_2/bg-img.png');
-  }
-
-  .sm\:bg-logo-ig-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig.png');
-  }
-
-  .sm\:bg-logo-live-1 {
-    background-image: url('../images/widgets/instagram_1/logo-live.png');
-  }
-
-  .sm\:bg-logo-ig-tiny-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig-tiny.png');
-  }
-
-  .sm\:bg-speaker-1-1 {
-    background-image: url('../images/widgets/instagram_1/speaker1.png');
-  }
-
-  .sm\:bg-speaker-2-1 {
-    background-image: url('../images/widgets/instagram_1/speaker2.png');
-  }
-
-  .sm\:bg-bg-name-speaker1 {
-    background-image: url('../images/widgets/instagram_1/bg-name-speaker.png');
-  }
-
-  .sm\:bg-logo-ig-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig.png');
-  }
-
-  .sm\:bg-logo-live-2 {
-    background-image: url('../images/widgets/instagram_2/logo-live.png');
-  }
-
-  .sm\:bg-logo-ig-tiny-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig-tiny.png');
-  }
-
-  .sm\:bg-speaker-1-2 {
-    background-image: url('../images/widgets/instagram_2/speaker1.png');
-  }
-
-  .sm\:bg-speaker-2-2 {
-    background-image: url('../images/widgets/instagram_2/speaker2.png');
-  }
-
-  .sm\:bg-presiden-banner {
-    background-image: url('../images/widgets/banner/presiden.png');
-  }
-
-  .sm\:bg-shape {
-    background-image: url('../images/widgets/banner/shape.png');
-  }
-
-  .sm\:bg-arrow-right {
-    background-image: url('../images/widgets/card_news/arrow-right.png');
-  }
-
-  .sm\:bg-card-news {
-    background-image: url('../images/widgets/card_news/card-news.png');
-  }
-
-  .sm\:bg-thumb-1 {
-    background-image: url('../images/widgets/card_news/thumb-1.png');
-  }
-
-  .sm\:bg-thumb-2 {
-    background-image: url('../images/widgets/card_news/thumb-2.png');
-  }
-
-  .sm\:bg-thumb-3 {
-    background-image: url('../images/widgets/card_news/thumb-3.png');
-  }
-
-  .sm\:bg-hr {
-    background-image: url('../images/footers/hr.png');
-  }
-
-  .sm\:bg-logo-bisnis-bottom {
-    background-image: url('../images/footers/logo-bisnis-bottom.png');
-  }
-
-  .sm\:bg-logo-bank-btn {
-    background-image: url('../images/footers/logo-bank-btn.png');
-  }
-
-  .sm\:bg-logo-waskita {
-    background-image: url('../images/footers/logo-waskita.png');
-  }
-
-  .sm\:bg-top-arrow {
-    background-image: url('../images/footers/top-arrow.png');
   }
 
   .sm\:from-transparent {
@@ -54457,6 +54046,18 @@ video {
     vertical-align: text-bottom;
   }
 
+  .sm\:font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .sm\:font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .sm\:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
   .sm\:font-tahu {
     font-family: Tahu;
   }
@@ -54528,18 +54129,6 @@ video {
   .sm\:text-9xl {
     font-size: 8rem;
     line-height: 1;
-  }
-
-  .sm\:text-2xs {
-    font-size: 0.5rem;
-  }
-
-  .sm\:text-3xs {
-    font-size: 0.4rem;
-  }
-
-  .sm\:text-4xs {
-    font-size: 0.3rem;
   }
 
   .sm\:font-thin {
@@ -69816,128 +69405,12 @@ video {
     height: 100vh;
   }
 
-  .md\:h-hero-xs {
-    height: 500px;
+  .md\:h-hero-shape {
+    height: 770px;
   }
 
-  .md\:h-hero-sm {
-    height: 340px;
-  }
-
-  .md\:h-hero-md {
-    height: 410px;
-  }
-
-  .md\:h-hero-lg {
-    height: 550px;
-  }
-
-  .md\:h-hero-xl {
-    height: 670px;
-  }
-
-  .md\:h-hero-2xl {
-    height: 820px;
-  }
-
-  .md\:h-video-thumb-sm {
-    height: 50px;
-  }
-
-  .md\:h-video-thumb-md {
-    height: 240px;
-  }
-
-  .md\:h-video-thumb-lg {
-    height: 350px;
-  }
-
-  .md\:h-video-thumb-xl {
-    height: 460px;
-  }
-
-  .md\:h-video-thumb-2xl {
-    height: 543px;
-  }
-
-  .md\:h-event-xl {
-    height: 527px;
-  }
-
-  .md\:h-event-2xl {
-    height: 627px;
-  }
-
-  .md\:h-logo-ig-sm {
-    height: 16px;
-  }
-
-  .md\:h-logo-ig-md {
-    height: 16px;
-  }
-
-  .md\:h-logo-ig-lg {
-    height: 26px;
-  }
-
-  .md\:h-logo-ig-xl {
-    height: 36px;
-  }
-
-  .md\:h-logo-ig-2xl {
-    height: 46px;
-  }
-
-  .md\:h-speaker-sm {
-    height: 24px;
-  }
-
-  .md\:h-speaker-md {
-    height: 44px;
-  }
-
-  .md\:h-speaker-lg {
-    height: 64px;
-  }
-
-  .md\:h-speaker-xl {
-    height: 84px;
-  }
-
-  .md\:h-speaker-2xl {
-    height: 103px;
-  }
-
-  .md\:h-presiden-banner {
-    height: 310px;
-  }
-
-  .md\:h-arrow-right {
-    height: 10px;
-  }
-
-  .md\:h-card-news {
-    height: 428px;
-  }
-
-  .md\:h-thumb {
-    height: 175px;
-  }
-
-  .md\:h-logo-bank-btn {
-    height: 73px;
-  }
-
-  .md\:h-logo-waskita {
-    height: 70px;
-  }
-
-  .md\:h-top-arrow {
-    height: 27px;
-  }
-
-  .md\:h-logo-bisnis-bottom {
-    height: 35px;
+  .md\:h-hero-pattern {
+    height: 770px;
   }
 
   .md\:max-h-0 {
@@ -81242,128 +80715,16 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:bg-shape-red {
+  .md\:bg-hero-shape {
     background-image: url('../images/heros/shape_red.png');
   }
 
-  .md\:bg-vector-pattern {
-    background-image: url('../images/heros/vector.png');
-  }
-
-  .md\:bg-logo-bisnis-top {
+  .md\:bg-logo-bisnis {
     background-image: url('../images/heros/logo_bisnis_top.png');
   }
 
-  .md\:bg-logo-indonesia-maju-top {
+  .md\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
-  }
-
-  .md\:bg-video-thumb {
-    background-image: url('../images/heros/video_thumb.png');
-  }
-
-  .md\:bg-icon-player {
-    background-image: url('../images/heros/icon_player.png');
-  }
-
-  .md\:bg-event-1-ig {
-    background-image: url('../images/widgets/instagram_1/bg-img.png');
-  }
-
-  .md\:bg-event-2-ig {
-    background-image: url('../images/widgets/instagram_2/bg-img.png');
-  }
-
-  .md\:bg-logo-ig-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig.png');
-  }
-
-  .md\:bg-logo-live-1 {
-    background-image: url('../images/widgets/instagram_1/logo-live.png');
-  }
-
-  .md\:bg-logo-ig-tiny-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig-tiny.png');
-  }
-
-  .md\:bg-speaker-1-1 {
-    background-image: url('../images/widgets/instagram_1/speaker1.png');
-  }
-
-  .md\:bg-speaker-2-1 {
-    background-image: url('../images/widgets/instagram_1/speaker2.png');
-  }
-
-  .md\:bg-bg-name-speaker1 {
-    background-image: url('../images/widgets/instagram_1/bg-name-speaker.png');
-  }
-
-  .md\:bg-logo-ig-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig.png');
-  }
-
-  .md\:bg-logo-live-2 {
-    background-image: url('../images/widgets/instagram_2/logo-live.png');
-  }
-
-  .md\:bg-logo-ig-tiny-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig-tiny.png');
-  }
-
-  .md\:bg-speaker-1-2 {
-    background-image: url('../images/widgets/instagram_2/speaker1.png');
-  }
-
-  .md\:bg-speaker-2-2 {
-    background-image: url('../images/widgets/instagram_2/speaker2.png');
-  }
-
-  .md\:bg-presiden-banner {
-    background-image: url('../images/widgets/banner/presiden.png');
-  }
-
-  .md\:bg-shape {
-    background-image: url('../images/widgets/banner/shape.png');
-  }
-
-  .md\:bg-arrow-right {
-    background-image: url('../images/widgets/card_news/arrow-right.png');
-  }
-
-  .md\:bg-card-news {
-    background-image: url('../images/widgets/card_news/card-news.png');
-  }
-
-  .md\:bg-thumb-1 {
-    background-image: url('../images/widgets/card_news/thumb-1.png');
-  }
-
-  .md\:bg-thumb-2 {
-    background-image: url('../images/widgets/card_news/thumb-2.png');
-  }
-
-  .md\:bg-thumb-3 {
-    background-image: url('../images/widgets/card_news/thumb-3.png');
-  }
-
-  .md\:bg-hr {
-    background-image: url('../images/footers/hr.png');
-  }
-
-  .md\:bg-logo-bisnis-bottom {
-    background-image: url('../images/footers/logo-bisnis-bottom.png');
-  }
-
-  .md\:bg-logo-bank-btn {
-    background-image: url('../images/footers/logo-bank-btn.png');
-  }
-
-  .md\:bg-logo-waskita {
-    background-image: url('../images/footers/logo-waskita.png');
-  }
-
-  .md\:bg-top-arrow {
-    background-image: url('../images/footers/top-arrow.png');
   }
 
   .md\:from-transparent {
@@ -85931,6 +85292,18 @@ video {
     vertical-align: text-bottom;
   }
 
+  .md\:font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .md\:font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .md\:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
   .md\:font-tahu {
     font-family: Tahu;
   }
@@ -86002,18 +85375,6 @@ video {
   .md\:text-9xl {
     font-size: 8rem;
     line-height: 1;
-  }
-
-  .md\:text-2xs {
-    font-size: 0.5rem;
-  }
-
-  .md\:text-3xs {
-    font-size: 0.4rem;
-  }
-
-  .md\:text-4xs {
-    font-size: 0.3rem;
   }
 
   .md\:font-thin {
@@ -101290,128 +100651,12 @@ video {
     height: 100vh;
   }
 
-  .lg\:h-hero-xs {
-    height: 500px;
+  .lg\:h-hero-shape {
+    height: 770px;
   }
 
-  .lg\:h-hero-sm {
-    height: 340px;
-  }
-
-  .lg\:h-hero-md {
-    height: 410px;
-  }
-
-  .lg\:h-hero-lg {
-    height: 550px;
-  }
-
-  .lg\:h-hero-xl {
-    height: 670px;
-  }
-
-  .lg\:h-hero-2xl {
-    height: 820px;
-  }
-
-  .lg\:h-video-thumb-sm {
-    height: 50px;
-  }
-
-  .lg\:h-video-thumb-md {
-    height: 240px;
-  }
-
-  .lg\:h-video-thumb-lg {
-    height: 350px;
-  }
-
-  .lg\:h-video-thumb-xl {
-    height: 460px;
-  }
-
-  .lg\:h-video-thumb-2xl {
-    height: 543px;
-  }
-
-  .lg\:h-event-xl {
-    height: 527px;
-  }
-
-  .lg\:h-event-2xl {
-    height: 627px;
-  }
-
-  .lg\:h-logo-ig-sm {
-    height: 16px;
-  }
-
-  .lg\:h-logo-ig-md {
-    height: 16px;
-  }
-
-  .lg\:h-logo-ig-lg {
-    height: 26px;
-  }
-
-  .lg\:h-logo-ig-xl {
-    height: 36px;
-  }
-
-  .lg\:h-logo-ig-2xl {
-    height: 46px;
-  }
-
-  .lg\:h-speaker-sm {
-    height: 24px;
-  }
-
-  .lg\:h-speaker-md {
-    height: 44px;
-  }
-
-  .lg\:h-speaker-lg {
-    height: 64px;
-  }
-
-  .lg\:h-speaker-xl {
-    height: 84px;
-  }
-
-  .lg\:h-speaker-2xl {
-    height: 103px;
-  }
-
-  .lg\:h-presiden-banner {
-    height: 310px;
-  }
-
-  .lg\:h-arrow-right {
-    height: 10px;
-  }
-
-  .lg\:h-card-news {
-    height: 428px;
-  }
-
-  .lg\:h-thumb {
-    height: 175px;
-  }
-
-  .lg\:h-logo-bank-btn {
-    height: 73px;
-  }
-
-  .lg\:h-logo-waskita {
-    height: 70px;
-  }
-
-  .lg\:h-top-arrow {
-    height: 27px;
-  }
-
-  .lg\:h-logo-bisnis-bottom {
-    height: 35px;
+  .lg\:h-hero-pattern {
+    height: 770px;
   }
 
   .lg\:max-h-0 {
@@ -112716,128 +111961,16 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-shape-red {
+  .lg\:bg-hero-shape {
     background-image: url('../images/heros/shape_red.png');
   }
 
-  .lg\:bg-vector-pattern {
-    background-image: url('../images/heros/vector.png');
-  }
-
-  .lg\:bg-logo-bisnis-top {
+  .lg\:bg-logo-bisnis {
     background-image: url('../images/heros/logo_bisnis_top.png');
   }
 
-  .lg\:bg-logo-indonesia-maju-top {
+  .lg\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
-  }
-
-  .lg\:bg-video-thumb {
-    background-image: url('../images/heros/video_thumb.png');
-  }
-
-  .lg\:bg-icon-player {
-    background-image: url('../images/heros/icon_player.png');
-  }
-
-  .lg\:bg-event-1-ig {
-    background-image: url('../images/widgets/instagram_1/bg-img.png');
-  }
-
-  .lg\:bg-event-2-ig {
-    background-image: url('../images/widgets/instagram_2/bg-img.png');
-  }
-
-  .lg\:bg-logo-ig-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig.png');
-  }
-
-  .lg\:bg-logo-live-1 {
-    background-image: url('../images/widgets/instagram_1/logo-live.png');
-  }
-
-  .lg\:bg-logo-ig-tiny-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig-tiny.png');
-  }
-
-  .lg\:bg-speaker-1-1 {
-    background-image: url('../images/widgets/instagram_1/speaker1.png');
-  }
-
-  .lg\:bg-speaker-2-1 {
-    background-image: url('../images/widgets/instagram_1/speaker2.png');
-  }
-
-  .lg\:bg-bg-name-speaker1 {
-    background-image: url('../images/widgets/instagram_1/bg-name-speaker.png');
-  }
-
-  .lg\:bg-logo-ig-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig.png');
-  }
-
-  .lg\:bg-logo-live-2 {
-    background-image: url('../images/widgets/instagram_2/logo-live.png');
-  }
-
-  .lg\:bg-logo-ig-tiny-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig-tiny.png');
-  }
-
-  .lg\:bg-speaker-1-2 {
-    background-image: url('../images/widgets/instagram_2/speaker1.png');
-  }
-
-  .lg\:bg-speaker-2-2 {
-    background-image: url('../images/widgets/instagram_2/speaker2.png');
-  }
-
-  .lg\:bg-presiden-banner {
-    background-image: url('../images/widgets/banner/presiden.png');
-  }
-
-  .lg\:bg-shape {
-    background-image: url('../images/widgets/banner/shape.png');
-  }
-
-  .lg\:bg-arrow-right {
-    background-image: url('../images/widgets/card_news/arrow-right.png');
-  }
-
-  .lg\:bg-card-news {
-    background-image: url('../images/widgets/card_news/card-news.png');
-  }
-
-  .lg\:bg-thumb-1 {
-    background-image: url('../images/widgets/card_news/thumb-1.png');
-  }
-
-  .lg\:bg-thumb-2 {
-    background-image: url('../images/widgets/card_news/thumb-2.png');
-  }
-
-  .lg\:bg-thumb-3 {
-    background-image: url('../images/widgets/card_news/thumb-3.png');
-  }
-
-  .lg\:bg-hr {
-    background-image: url('../images/footers/hr.png');
-  }
-
-  .lg\:bg-logo-bisnis-bottom {
-    background-image: url('../images/footers/logo-bisnis-bottom.png');
-  }
-
-  .lg\:bg-logo-bank-btn {
-    background-image: url('../images/footers/logo-bank-btn.png');
-  }
-
-  .lg\:bg-logo-waskita {
-    background-image: url('../images/footers/logo-waskita.png');
-  }
-
-  .lg\:bg-top-arrow {
-    background-image: url('../images/footers/top-arrow.png');
   }
 
   .lg\:from-transparent {
@@ -117405,6 +116538,18 @@ video {
     vertical-align: text-bottom;
   }
 
+  .lg\:font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .lg\:font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .lg\:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
   .lg\:font-tahu {
     font-family: Tahu;
   }
@@ -117476,18 +116621,6 @@ video {
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
-  }
-
-  .lg\:text-2xs {
-    font-size: 0.5rem;
-  }
-
-  .lg\:text-3xs {
-    font-size: 0.4rem;
-  }
-
-  .lg\:text-4xs {
-    font-size: 0.3rem;
   }
 
   .lg\:font-thin {
@@ -132764,128 +131897,12 @@ video {
     height: 100vh;
   }
 
-  .xl\:h-hero-xs {
-    height: 500px;
+  .xl\:h-hero-shape {
+    height: 770px;
   }
 
-  .xl\:h-hero-sm {
-    height: 340px;
-  }
-
-  .xl\:h-hero-md {
-    height: 410px;
-  }
-
-  .xl\:h-hero-lg {
-    height: 550px;
-  }
-
-  .xl\:h-hero-xl {
-    height: 670px;
-  }
-
-  .xl\:h-hero-2xl {
-    height: 820px;
-  }
-
-  .xl\:h-video-thumb-sm {
-    height: 50px;
-  }
-
-  .xl\:h-video-thumb-md {
-    height: 240px;
-  }
-
-  .xl\:h-video-thumb-lg {
-    height: 350px;
-  }
-
-  .xl\:h-video-thumb-xl {
-    height: 460px;
-  }
-
-  .xl\:h-video-thumb-2xl {
-    height: 543px;
-  }
-
-  .xl\:h-event-xl {
-    height: 527px;
-  }
-
-  .xl\:h-event-2xl {
-    height: 627px;
-  }
-
-  .xl\:h-logo-ig-sm {
-    height: 16px;
-  }
-
-  .xl\:h-logo-ig-md {
-    height: 16px;
-  }
-
-  .xl\:h-logo-ig-lg {
-    height: 26px;
-  }
-
-  .xl\:h-logo-ig-xl {
-    height: 36px;
-  }
-
-  .xl\:h-logo-ig-2xl {
-    height: 46px;
-  }
-
-  .xl\:h-speaker-sm {
-    height: 24px;
-  }
-
-  .xl\:h-speaker-md {
-    height: 44px;
-  }
-
-  .xl\:h-speaker-lg {
-    height: 64px;
-  }
-
-  .xl\:h-speaker-xl {
-    height: 84px;
-  }
-
-  .xl\:h-speaker-2xl {
-    height: 103px;
-  }
-
-  .xl\:h-presiden-banner {
-    height: 310px;
-  }
-
-  .xl\:h-arrow-right {
-    height: 10px;
-  }
-
-  .xl\:h-card-news {
-    height: 428px;
-  }
-
-  .xl\:h-thumb {
-    height: 175px;
-  }
-
-  .xl\:h-logo-bank-btn {
-    height: 73px;
-  }
-
-  .xl\:h-logo-waskita {
-    height: 70px;
-  }
-
-  .xl\:h-top-arrow {
-    height: 27px;
-  }
-
-  .xl\:h-logo-bisnis-bottom {
-    height: 35px;
+  .xl\:h-hero-pattern {
+    height: 770px;
   }
 
   .xl\:max-h-0 {
@@ -144190,128 +143207,16 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-shape-red {
+  .xl\:bg-hero-shape {
     background-image: url('../images/heros/shape_red.png');
   }
 
-  .xl\:bg-vector-pattern {
-    background-image: url('../images/heros/vector.png');
-  }
-
-  .xl\:bg-logo-bisnis-top {
+  .xl\:bg-logo-bisnis {
     background-image: url('../images/heros/logo_bisnis_top.png');
   }
 
-  .xl\:bg-logo-indonesia-maju-top {
+  .xl\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
-  }
-
-  .xl\:bg-video-thumb {
-    background-image: url('../images/heros/video_thumb.png');
-  }
-
-  .xl\:bg-icon-player {
-    background-image: url('../images/heros/icon_player.png');
-  }
-
-  .xl\:bg-event-1-ig {
-    background-image: url('../images/widgets/instagram_1/bg-img.png');
-  }
-
-  .xl\:bg-event-2-ig {
-    background-image: url('../images/widgets/instagram_2/bg-img.png');
-  }
-
-  .xl\:bg-logo-ig-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig.png');
-  }
-
-  .xl\:bg-logo-live-1 {
-    background-image: url('../images/widgets/instagram_1/logo-live.png');
-  }
-
-  .xl\:bg-logo-ig-tiny-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig-tiny.png');
-  }
-
-  .xl\:bg-speaker-1-1 {
-    background-image: url('../images/widgets/instagram_1/speaker1.png');
-  }
-
-  .xl\:bg-speaker-2-1 {
-    background-image: url('../images/widgets/instagram_1/speaker2.png');
-  }
-
-  .xl\:bg-bg-name-speaker1 {
-    background-image: url('../images/widgets/instagram_1/bg-name-speaker.png');
-  }
-
-  .xl\:bg-logo-ig-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig.png');
-  }
-
-  .xl\:bg-logo-live-2 {
-    background-image: url('../images/widgets/instagram_2/logo-live.png');
-  }
-
-  .xl\:bg-logo-ig-tiny-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig-tiny.png');
-  }
-
-  .xl\:bg-speaker-1-2 {
-    background-image: url('../images/widgets/instagram_2/speaker1.png');
-  }
-
-  .xl\:bg-speaker-2-2 {
-    background-image: url('../images/widgets/instagram_2/speaker2.png');
-  }
-
-  .xl\:bg-presiden-banner {
-    background-image: url('../images/widgets/banner/presiden.png');
-  }
-
-  .xl\:bg-shape {
-    background-image: url('../images/widgets/banner/shape.png');
-  }
-
-  .xl\:bg-arrow-right {
-    background-image: url('../images/widgets/card_news/arrow-right.png');
-  }
-
-  .xl\:bg-card-news {
-    background-image: url('../images/widgets/card_news/card-news.png');
-  }
-
-  .xl\:bg-thumb-1 {
-    background-image: url('../images/widgets/card_news/thumb-1.png');
-  }
-
-  .xl\:bg-thumb-2 {
-    background-image: url('../images/widgets/card_news/thumb-2.png');
-  }
-
-  .xl\:bg-thumb-3 {
-    background-image: url('../images/widgets/card_news/thumb-3.png');
-  }
-
-  .xl\:bg-hr {
-    background-image: url('../images/footers/hr.png');
-  }
-
-  .xl\:bg-logo-bisnis-bottom {
-    background-image: url('../images/footers/logo-bisnis-bottom.png');
-  }
-
-  .xl\:bg-logo-bank-btn {
-    background-image: url('../images/footers/logo-bank-btn.png');
-  }
-
-  .xl\:bg-logo-waskita {
-    background-image: url('../images/footers/logo-waskita.png');
-  }
-
-  .xl\:bg-top-arrow {
-    background-image: url('../images/footers/top-arrow.png');
   }
 
   .xl\:from-transparent {
@@ -148879,6 +147784,18 @@ video {
     vertical-align: text-bottom;
   }
 
+  .xl\:font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .xl\:font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .xl\:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
   .xl\:font-tahu {
     font-family: Tahu;
   }
@@ -148950,18 +147867,6 @@ video {
   .xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
-  }
-
-  .xl\:text-2xs {
-    font-size: 0.5rem;
-  }
-
-  .xl\:text-3xs {
-    font-size: 0.4rem;
-  }
-
-  .xl\:text-4xs {
-    font-size: 0.3rem;
   }
 
   .xl\:font-thin {
@@ -164238,128 +163143,12 @@ video {
     height: 100vh;
   }
 
-  .\32xl\:h-hero-xs {
-    height: 500px;
+  .\32xl\:h-hero-shape {
+    height: 770px;
   }
 
-  .\32xl\:h-hero-sm {
-    height: 340px;
-  }
-
-  .\32xl\:h-hero-md {
-    height: 410px;
-  }
-
-  .\32xl\:h-hero-lg {
-    height: 550px;
-  }
-
-  .\32xl\:h-hero-xl {
-    height: 670px;
-  }
-
-  .\32xl\:h-hero-2xl {
-    height: 820px;
-  }
-
-  .\32xl\:h-video-thumb-sm {
-    height: 50px;
-  }
-
-  .\32xl\:h-video-thumb-md {
-    height: 240px;
-  }
-
-  .\32xl\:h-video-thumb-lg {
-    height: 350px;
-  }
-
-  .\32xl\:h-video-thumb-xl {
-    height: 460px;
-  }
-
-  .\32xl\:h-video-thumb-2xl {
-    height: 543px;
-  }
-
-  .\32xl\:h-event-xl {
-    height: 527px;
-  }
-
-  .\32xl\:h-event-2xl {
-    height: 627px;
-  }
-
-  .\32xl\:h-logo-ig-sm {
-    height: 16px;
-  }
-
-  .\32xl\:h-logo-ig-md {
-    height: 16px;
-  }
-
-  .\32xl\:h-logo-ig-lg {
-    height: 26px;
-  }
-
-  .\32xl\:h-logo-ig-xl {
-    height: 36px;
-  }
-
-  .\32xl\:h-logo-ig-2xl {
-    height: 46px;
-  }
-
-  .\32xl\:h-speaker-sm {
-    height: 24px;
-  }
-
-  .\32xl\:h-speaker-md {
-    height: 44px;
-  }
-
-  .\32xl\:h-speaker-lg {
-    height: 64px;
-  }
-
-  .\32xl\:h-speaker-xl {
-    height: 84px;
-  }
-
-  .\32xl\:h-speaker-2xl {
-    height: 103px;
-  }
-
-  .\32xl\:h-presiden-banner {
-    height: 310px;
-  }
-
-  .\32xl\:h-arrow-right {
-    height: 10px;
-  }
-
-  .\32xl\:h-card-news {
-    height: 428px;
-  }
-
-  .\32xl\:h-thumb {
-    height: 175px;
-  }
-
-  .\32xl\:h-logo-bank-btn {
-    height: 73px;
-  }
-
-  .\32xl\:h-logo-waskita {
-    height: 70px;
-  }
-
-  .\32xl\:h-top-arrow {
-    height: 27px;
-  }
-
-  .\32xl\:h-logo-bisnis-bottom {
-    height: 35px;
+  .\32xl\:h-hero-pattern {
+    height: 770px;
   }
 
   .\32xl\:max-h-0 {
@@ -175664,128 +174453,16 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:bg-shape-red {
+  .\32xl\:bg-hero-shape {
     background-image: url('../images/heros/shape_red.png');
   }
 
-  .\32xl\:bg-vector-pattern {
-    background-image: url('../images/heros/vector.png');
-  }
-
-  .\32xl\:bg-logo-bisnis-top {
+  .\32xl\:bg-logo-bisnis {
     background-image: url('../images/heros/logo_bisnis_top.png');
   }
 
-  .\32xl\:bg-logo-indonesia-maju-top {
+  .\32xl\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
-  }
-
-  .\32xl\:bg-video-thumb {
-    background-image: url('../images/heros/video_thumb.png');
-  }
-
-  .\32xl\:bg-icon-player {
-    background-image: url('../images/heros/icon_player.png');
-  }
-
-  .\32xl\:bg-event-1-ig {
-    background-image: url('../images/widgets/instagram_1/bg-img.png');
-  }
-
-  .\32xl\:bg-event-2-ig {
-    background-image: url('../images/widgets/instagram_2/bg-img.png');
-  }
-
-  .\32xl\:bg-logo-ig-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig.png');
-  }
-
-  .\32xl\:bg-logo-live-1 {
-    background-image: url('../images/widgets/instagram_1/logo-live.png');
-  }
-
-  .\32xl\:bg-logo-ig-tiny-1 {
-    background-image: url('../images/widgets/instagram_1/logo-ig-tiny.png');
-  }
-
-  .\32xl\:bg-speaker-1-1 {
-    background-image: url('../images/widgets/instagram_1/speaker1.png');
-  }
-
-  .\32xl\:bg-speaker-2-1 {
-    background-image: url('../images/widgets/instagram_1/speaker2.png');
-  }
-
-  .\32xl\:bg-bg-name-speaker1 {
-    background-image: url('../images/widgets/instagram_1/bg-name-speaker.png');
-  }
-
-  .\32xl\:bg-logo-ig-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig.png');
-  }
-
-  .\32xl\:bg-logo-live-2 {
-    background-image: url('../images/widgets/instagram_2/logo-live.png');
-  }
-
-  .\32xl\:bg-logo-ig-tiny-2 {
-    background-image: url('../images/widgets/instagram_2/logo-ig-tiny.png');
-  }
-
-  .\32xl\:bg-speaker-1-2 {
-    background-image: url('../images/widgets/instagram_2/speaker1.png');
-  }
-
-  .\32xl\:bg-speaker-2-2 {
-    background-image: url('../images/widgets/instagram_2/speaker2.png');
-  }
-
-  .\32xl\:bg-presiden-banner {
-    background-image: url('../images/widgets/banner/presiden.png');
-  }
-
-  .\32xl\:bg-shape {
-    background-image: url('../images/widgets/banner/shape.png');
-  }
-
-  .\32xl\:bg-arrow-right {
-    background-image: url('../images/widgets/card_news/arrow-right.png');
-  }
-
-  .\32xl\:bg-card-news {
-    background-image: url('../images/widgets/card_news/card-news.png');
-  }
-
-  .\32xl\:bg-thumb-1 {
-    background-image: url('../images/widgets/card_news/thumb-1.png');
-  }
-
-  .\32xl\:bg-thumb-2 {
-    background-image: url('../images/widgets/card_news/thumb-2.png');
-  }
-
-  .\32xl\:bg-thumb-3 {
-    background-image: url('../images/widgets/card_news/thumb-3.png');
-  }
-
-  .\32xl\:bg-hr {
-    background-image: url('../images/footers/hr.png');
-  }
-
-  .\32xl\:bg-logo-bisnis-bottom {
-    background-image: url('../images/footers/logo-bisnis-bottom.png');
-  }
-
-  .\32xl\:bg-logo-bank-btn {
-    background-image: url('../images/footers/logo-bank-btn.png');
-  }
-
-  .\32xl\:bg-logo-waskita {
-    background-image: url('../images/footers/logo-waskita.png');
-  }
-
-  .\32xl\:bg-top-arrow {
-    background-image: url('../images/footers/top-arrow.png');
   }
 
   .\32xl\:from-transparent {
@@ -180353,6 +179030,18 @@ video {
     vertical-align: text-bottom;
   }
 
+  .\32xl\:font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .\32xl\:font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .\32xl\:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
   .\32xl\:font-tahu {
     font-family: Tahu;
   }
@@ -180424,18 +179113,6 @@ video {
   .\32xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
-  }
-
-  .\32xl\:text-2xs {
-    font-size: 0.5rem;
-  }
-
-  .\32xl\:text-3xs {
-    font-size: 0.4rem;
-  }
-
-  .\32xl\:text-4xs {
-    font-size: 0.3rem;
   }
 
   .\32xl\:font-thin {

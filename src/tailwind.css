@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Tahu';
+        src: local('Tahu!'),
+        url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Tahu!';
+        src: local('Tahu!'),
+        url('https://fonts.cdnfonts.com/s/15026/Tahu!.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Gotham Book';
+        src: local('Gotham Book'),
+        url('https://fonts.cdnfonts.com/s/13925/GOTHAMBOOK.woff') format('woff');
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "front-end-test-landing",
+  "name": "responsive-tailwind",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,8 +36,9 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.5",
-    "postcss": "^8.3.7",
-    "tailwindcss": "^2.2.15"
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "tailwindcss-debug-screens": "^2.1.0"
   }
 }
