@@ -18,6 +18,14 @@ module.exports = {
         'tahu': ['Tahu'],
         'gotham': ['Gotham Book'],
       },
+      width: {
+        '21rem': '21.5rem',
+        '27rem': '27rem',
+        '29rem': '29rem'
+      },
+      fontSize: {
+        xxs: ['8px', '11px']
+      },
       height: {
         'hero-shape-xs': '400px',
         'hero-shape-sm': '380px',
@@ -26,8 +34,21 @@ module.exports = {
         'hero-shape-xl': '720px',
         'hero-shape': '770px',
         'hero-pattern': '770px',
+        'event-1-2xl': '640px',
+        'event-2-2xl': '640px',
+        'event-1-xl': '570px',
+        'event-2-xl': '570px',
+        'event-1-lg': '470px',
+        'event-2-lg': '470px',
+        'event-1-md': '770px',
+        'event-2-md': '770px',
+        'event-1-sm': '600px',
+        'event-2-sm': '600px',
+        'event-1-mobile': '640px',
+        'event-2-mobile': '640px',
         'event-1': '627px',
-        'event-2': '627px'
+        'event-2': '627px',
+        '100rem': '100rem'
       },
       backgroundImage: {
         'hero-shape': "url('../images/heros/shape_red.png')",

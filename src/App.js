@@ -3,11 +3,13 @@ import './assets/styles/tailwind.css';
 import logoBisnis from './assets/images/heros/logo_bisnis_top.png';
 import logoIndonesiaMaju from './assets/images/heros/logo_indonesia_maju_top.png';
 import videoThumb from './assets/images/heros/video_thumb.png';
+import event1 from './assets/images/instagram_1/bg-img.png';
 import logoInstagram from './assets/images/instagram_1/logo-ig.png';
 import logoLive from './assets/images/instagram_1/logo-live.png';
 import logoIgTiny from './assets/images/instagram_1/logo-ig-tiny.png';
 import speaker1Event1 from './assets/images/instagram_1/speaker1.png';
 import speaker2Event1 from './assets/images/instagram_1/speaker2.png';
+import event2 from './assets/images/instagram_2/bg-img.png';
 import speaker1Event2 from './assets/images/instagram_2/speaker1.png';
 import speaker2Event2 from './assets/images/instagram_2/speaker2.png';
 import banner from './assets/images/banner/presiden.png';
@@ -55,102 +57,110 @@ const App = () => {
             <div className="py-8 px-7 2xl:px-72 xl:px-52 lg:px-40 md:px-24 sm:px-24">
               <img id="video-thumb" src={videoThumb} alt="video-thumb" className=" mx-auto mb-4 rounded-md "/> 
 
-              <div id="instagram" className="h-auto relative grid lg:grid-cols-2 md:grid-cols-1 gap-4 xl:px-1 mb-4 border-4">
-                <div className="bg-event-1 bg-no-repeat bg-contain bg-center h-event-1 w-full relative z-0 2xl:m-0 xl:-mt-8 xl:-mb-8 lg:-mt-20 lg:-mb-20">
-                  <div className="grid grid-cols-1 text-center relative z-10">
-                    <div className="mx-auto xl:mt-12 lg:mt-24">
-                      <img src={logoInstagram} alt="logo-instagram" className="object-contain h-full"/>
+              <div id="instagram" className="h-auto relative grid lg:grid-cols-2 md:grid-cols-1 gap-4 xl:px-1 mb-4 z-0">
+                <div>
+                  <div className="grid grid-cols-1 text-center absolute z-20 2xl:w-29rem xl:w-27rem lg:w-21rem">
+                    <div className="mx-auto 2xl:mt-8 xl:mt-6 lg:mt-8 md:mt-16 sm:mt-8 mt-6">
+                      <img src={logoInstagram} alt="logo-instagram" className="object-contain xl:h-full lg:h-8 md:h-16 sm:h-12 h-8"/>
                     </div>
                     <div className="mx-auto mt-2">
-                      <img src={logoLive} alt="logo-live" className="object-contain h-full"/>
+                      <img src={logoLive} alt="logo-live" className="object-contain xl:h-full lg:h-5 sm:h-full h-5"/>
                     </div>
-                    <div className="xl:mt-8 lg:mt-2">
-                      <img src={logoIgTiny} alt="logo-ig-tiny" className="object-contain inline"/>
-                      <span className="ml-2 text-white inline">@bisniscom</span>
+                    <div className="xl:mt-8 lg:mt-4 sm:mt-8 mt-4">
+                      <img src={logoIgTiny} alt="logo-ig-tiny" className="object-contain inline xl:h-full lg:h-4 md:h-full sm:h-5 h-3"/>
+                      <span className="ml-2 lg:ml-1 text-white inline xl:text-base lg:text-xs md:text-lg sm:text-sm text-xs">@bisniscom</span>
                     </div>
-                    <div className="xl:mt-4">
-                      <p className="text-white text-2xl font-bold">17 Agustus 2020</p>
-                      <p className="text-white text-sm font-bold">11.00 wib</p>
+                    <div className="lg:mt-4 md:mt-8 sm:mt-4">
+                      <p className="text-white xl:text-2xl lg:text-xl md:text-4xl sm:text-3xl text-lg font-bold">17 Agustus 2020</p>
+                      <p className="text-white xl:text-sm lg:text-xs md:text-xl sm:text-base text-xs font-bold">11.00 wib</p>
                     </div>
-                    <div className="2xl:mt-20 xl:mt-14 px-5">
-                      <p className="text-white text-sm">SPIRIT MEMBANGUN INDONESIA</p>
-                      <p className="text-white text-xl font-bold">Mencerdaskan Kehidupan Bangsa Melalui Media</p>
-                      <p className="mt-2 text-white text-xs">bersama</p>
+                    <div className="2xl:mt-20 xl:mt-10 lg:mt-10 md:mt-20 sm:mt-10 px-5">
+                      <p className="text-white xl:text-sm lg:text-xs md:text-lg sm:text-sm text-xs sm:mt-2 mt-10">SPIRIT MEMBANGUN INDONESIA</p>
+                      <p className="text-white xl:text-xl lg:text-base xl:mx-6 md:text-3xl sm:text-xl text-sm px-4 font-bold">Mencerdaskan Kehidupan Bangsa Melalui Media</p>
+                      <p className="mt-2 lg:mt-0 text-white xl:text-base lg:text-xs md:text-lg text-xs ">bersama</p>
                     </div>
-                    <div className="grid grid-cols-2 h-full">
+                    <div className="grid grid-cols-2">
                       <div className="grid place-content-center h-full">
-                        <img src={speaker1Event1} alt="speaker-1-event-1" className="mx-auto object-contain object-center"/>
+                        <img src={speaker1Event1} alt="speaker-1-event-1" className="sm:mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
                         <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
-                          <p className="text-white text-sm">Narasumber</p>
+                          <p className="text-white xl:text-sm text-xs">Narasumber</p>
                         </div>
-                        <div className="mx-auto mt-2">  
-                          <p className="text-white text-xs">Helmy Yahya</p>
-                          <p className="text-white text-xs">(Praktisi Multimedia)</p>
+                        <div className="mx-auto mt-1">  
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Helmy Yahya</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">(Praktisi Multimedia)</p>
                         </div>
                       </div>
                       <div className="grid place-content-center ">
-                        <img src={speaker2Event1} alt="speaker-2-event-1" className="mx-auto object-contain object-center"/>
+                        <img src={speaker2Event1} alt="speaker-2-event-1" className="sm:mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
                         <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
-                          <p className="text-white text-sm">Host</p>
+                          <p className="text-white xl:text-sm text-xs">Host</p>
                         </div>
                         <div className="mx-auto mt-2">  
-                          <p className="text-white text-xs">David Eka Issetiabudi</p>
-                          <p className="text-white text-xs">(Manager Konten Bisnis.com)</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">David Eka Issetiabudi</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">(Manager Konten Bisnis.com)</p>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <img src={event1} alt="event-1" className="object-contain h-full w-full relative z-10 "/>
                 </div>
-                <div className="bg-event-2 bg-no-repeat bg-contain bg-center h-event-2 w-full relative z-0 2xl:m-0 xl:-mt-8 xl:-mb-8 lg:-mt-20 lg:-mb-20">
-                  <div className="grid grid-cols-1 text-center relative z-10">
-                    <div className="mx-auto xl:mt-12 lg:mt-24">
-                      <img src={logoInstagram} alt="logo-instagram" className="object-contain h-full"/>
+                <div>
+                  <div className="grid grid-cols-1 text-center absolute z-20">
+                    <div className="mx-auto 2xl:mt-8 xl:mt-6 lg:mt-8 md:mt-16 sm:mt-8 mt-6">
+                      <img src={logoInstagram} alt="logo-instagram" className="object-contain xl:h-full lg:h-8 md:h-16 sm:h12 h-8"/>
                     </div>
                     <div className="mx-auto mt-2">
-                      <img src={logoLive} alt="logo-live" className="object-contain h-full"/>
+                      <img src={logoLive} alt="logo-live" className="object-contain xl:h-full lg:h-5 sm:h-full h-5"/>
                     </div>
-                    <div className="xl:mt-8 lg:mt-4">
-                      <img src={logoIgTiny} alt="logo-ig-tiny" className="object-contain inline"/>
-                      <span className="ml-2 text-white inline">@bisniscom</span>
+                    <div className="xl:mt-8 lg:mt-4 sm:mt-8 mt-4">
+                      <img src={logoIgTiny} alt="logo-ig-tiny" className="object-contain inline xl:h-full lg:h-4 md:h-full sm:h-5 h-3"/>
+                      <span className="ml-2 lg:ml-1 text-white inline xl:text-base lg:text-xs md:text-lg sm:text-sm text-xs">@bisniscom</span>
                     </div>
-                    <div className="xl:mt-4">
-                      <p className="text-white text-2xl font-bold">17 Agustus 2020</p>
-                      <p className="text-white text-sm font-bold">11.00 wib</p>
+                    <div className="lg:mt-4 md:mt-8 sm:mt-4">
+                      <p className="text-white xl:text-2xl lg:text-xl md:text-4xl sm:text-3xl text-lg font-bold">17 Agustus 2020</p>
+                      <p className="text-white xl:text-sm lg:text-xs md:text-xl sm:text-base text-sm font-bold">11.00 wib</p>
                     </div>
-                    <div className="2xl:mt-52mt-20 xl:mt-14 px-5">
-                      <p className="text-white text-sm">SPIRIT MEMBANGUN INDONESIA</p>
-                      <p className="text-white text-xl font-bold">Merdeka Finansial</p>
-                      <p className="mt-2 text-white text-xs">bersama</p>
+                    <div className="2xl:mt-20 xl:mt-10 lg:mt-10 md:mt-20 sm:mt-10 px-5">
+                      <p className="text-white xl:text-sm lg:text-xs md:text-lg sm:text-sm text-xs sm:mt-2 mt-10">SPIRIT MEMBANGUN INDONESIA</p>
+                      <p className="text-white xl:text-xl lg:text-base xl:mx-6 md:text-3xl sm:text-xl text-sm px-4 font-bold">Merdeka Finansial</p>
+                      <p className="mt-2 lg:mt-0 text-white xl:text-base lg:text-xs md:text-lg text-xs ">bersama</p>
                     </div>
-                    <div className="grid grid-cols-2 h-full mt-5">
-                      <div className="grid place-content-center  h-full">
-                        <img src={speaker1Event2} alt="speaker-1-event-1" className="-mt-4 mx-auto object-contain object-center"/>
+                    <div className="grid grid-cols-2">
+                      <div className="grid place-content-center h-full">
+                        <img src={speaker1Event2} alt="speaker-1-event-1" className="sm:-mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
                         <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
-                          <p className="text-white text-sm">Narasumber</p>
+                          <p className="text-white xl:text-sm text-xs">Narasumber</p>
                         </div>
                         <div className="mx-auto mt-2">  
-                          <p className="text-white text-xs">Safir Senduk</p>
-                          <p className="text-white text-xs">(Financial Planner)</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Safir Senduk</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">(Financial Planner)</p>
                         </div>
                       </div>
-                      <div className="grid place-content-center ">
-                        <img src={speaker2Event2} alt="speaker-2-event-1" className="mx-auto object-contain object-center"/>
+                      <div className="grid place-content-center h-full">
+                        <img src={speaker2Event2} alt="speaker-2-event-1" className="sm:mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
                         <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
-                          <p className="text-white text-sm">Host</p>
+                          <p className="text-white xl:text-sm lg:text-xs">Host</p>
                         </div>
-                        <div className="mx-auto mt-1 px-4">  
-                          <p className="text-white text-xs">Maftuh Ihsan</p>
-                          <p className="text-white text-xs">(Head of Digital Product Development Bisnis.com)</p>
+                        <div className="mx-auto mt-2 px-4">  
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Maftuh Ihsan</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">(Head of Digital Product Development Bisnis.com)</p>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <img src={event2} alt="event-2" className="object-contain h-full w-full relative z-10 "/>
                 </div>
               </div>
 
-              <div id="banner" className="mb-4 ">
-                <div className="bg-red-600 h-auto rounded-md">
-                  <img src={banner} alt="event-1" className="object-cover h-full w-full xl:px-1"/>
+              <div id="banner" className="mb-4 relative">
+                <div className="bg-red-600 h-auto rounded-md relative z-0">
+                  <div className="text-white grid grid-cols-1 h-full w-full absolute z-20">
+                    <div className="text-center grid place-content-center text-white">
+                      <p className="xl:text-xl lg:text-sm md:text-xs sm:text-xxs text-xxs font-gotham">75 Tahun Indonesia Merdeka</p>
+                      <p className="font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-xl font-gotham">"BAGIMU NEGERI"</p>
+                    </div>
+                  </div>
+                  <img src={banner} alt="event-1" className="object-contain h-full w-full xl:px-1 relative z-10 "/>
                 </div>
               </div>
 
