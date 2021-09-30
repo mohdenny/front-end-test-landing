@@ -60,7 +60,7 @@ const App = () => {
               <div id="instagram" className="h-auto relative grid lg:grid-cols-2 md:grid-cols-1 gap-4 xl:px-1 mb-4 z-0">
                 <div>
                   <div className="grid grid-cols-1 text-center absolute z-20 2xl:w-29rem xl:w-27rem lg:w-21rem">
-                    <div className="mx-auto 2xl:mt-8 xl:mt-6 lg:mt-8 md:mt-16 sm:mt-8 mt-6">
+                    <div className="mx-auto 2xl:mt-8 xl:mt-6 lg:mt-4 md:mt-16 sm:mt-8 mt-6">
                       <img src={logoInstagram} alt="logo-instagram" className="object-contain xl:h-full lg:h-8 md:h-16 sm:h-12 h-8"/>
                     </div>
                     <div className="mx-auto mt-2">
@@ -106,7 +106,7 @@ const App = () => {
                 </div>
                 <div>
                   <div className="grid grid-cols-1 text-center absolute z-20">
-                    <div className="mx-auto 2xl:mt-8 xl:mt-6 lg:mt-8 md:mt-16 sm:mt-8 mt-6">
+                    <div className="mx-auto 2xl:mt-8 xl:mt-6 lg:mt-4 md:mt-16 sm:mt-8 mt-6">
                       <img src={logoInstagram} alt="logo-instagram" className="object-contain xl:h-full lg:h-8 md:h-16 sm:h12 h-8"/>
                     </div>
                     <div className="mx-auto mt-2">
@@ -133,7 +133,7 @@ const App = () => {
                         </div>
                         <div className="mx-auto mt-2">  
                           <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Safir Senduk</p>
-                          <p className="text-white xl:text-sm lg:text-xs md:text-sm mb-5 text-xs">(Financial Planner)</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm mb-4 text-xs">(Financial Planner)</p>
                         </div>
                       </div>
                       <div className="grid place-content-center h-full">
