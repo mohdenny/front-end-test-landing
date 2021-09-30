@@ -133,7 +133,7 @@ const App = () => {
                         </div>
                         <div className="mx-auto mt-2">  
                           <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Safir Senduk</p>
-                          <p className="text-white xl:text-sm lg:text-xs md:text-sm mb-4 text-xs">(Financial Planner)</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm mb-5 text-xs">(Financial Planner)</p>
                         </div>
                       </div>
                       <div className="grid place-content-center h-full">
