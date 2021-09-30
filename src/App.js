@@ -3,21 +3,25 @@ import './assets/styles/tailwind.css';
 import logoBisnis from './assets/images/heros/logo_bisnis_top.png';
 import logoIndonesiaMaju from './assets/images/heros/logo_indonesia_maju_top.png';
 import videoThumb from './assets/images/heros/video_thumb.png';
-import event1 from './assets/images/instagram_1/bg-img.png';
-import event2 from './assets/images/instagram_2/bg-img.png';
+import logoInstagram from './assets/images/instagram_1/logo-ig.png';
+import logoLive from './assets/images/instagram_1/logo-live.png';
+import logoIgTiny from './assets/images/instagram_1/logo-ig-tiny.png';
+import speaker1Event1 from './assets/images/instagram_1/speaker1.png';
+import speaker2Event1 from './assets/images/instagram_1/speaker2.png';
+import speaker1Event2 from './assets/images/instagram_2/speaker1.png';
+import speaker2Event2 from './assets/images/instagram_2/speaker2.png';
 import banner from './assets/images/banner/presiden.png';
 import thumb1 from './assets/images/card_news/thumb-1.png';
 import thumb2 from './assets/images/card_news/thumb-2.png';
 import thumb3 from './assets/images/card_news/thumb-3.png';
 import logoBankBtn from './assets/images/footers/logo-bank-btn.png';
 import logoWaskita from './assets/images/footers/logo-waskita.png';
-import logoInstagram from './assets/images/instagram_1/logo-ig.png';
 import logoBisnisBottom from './assets/images/footers/logo-bisnis-bottom.png';
 
 const App = () => {
   return (
     <Fragment> 
-        <div className="bg-gray-100 h-screen max-w-full">
+        <div className="h-screen max-w-full">
           <div id="hero" className="relative ">
             <div id="hero-shape" className="bg-hero-shape h-hero-shape-xs 2xl:h-hero-shape xl:h-hero-shape-xl lg:h-hero-shape-lg md:h-hero-shape-md sm:h-hero-shape-sm w-full relative z-0">
               <div id="hero-pattern" className="bg-hero-pattern bg-no-repeat h-full 2xl:bg-center lg:bg-contain sm:bg-center sm:bg-contain bg-center bg-cover relative z-10 w-full"> 
@@ -51,20 +55,96 @@ const App = () => {
             <div className="py-8 px-7 2xl:px-72 xl:px-52 lg:px-40 md:px-24 sm:px-24">
               <img id="video-thumb" src={videoThumb} alt="video-thumb" className=" mx-auto mb-4 rounded-md "/> 
 
-              <div id="instagram" className=" relative grid lg:grid-cols-2 md:grid-cols-1 gap-4 xl:px-1 mb-4">
-                <div>
-                  <div className="grid grid-cols-1 transform translate-y-full relative z-10">
-                      <img src={logoInstagram} alt="logo-instagram" className="mx-auto object-contain"/>
+              <div id="instagram" className="h-auto relative grid lg:grid-cols-2 md:grid-cols-1 gap-4 xl:px-1 mb-4 border-4">
+                <div className="bg-event-1 bg-no-repeat bg-contain bg-center h-event-1 w-full relative z-0 2xl:m-0 xl:-mt-8 xl:-mb-8 lg:-mt-20 lg:-mb-20">
+                  <div className="grid grid-cols-1 text-center relative z-10">
+                    <div className="mx-auto xl:mt-12 lg:mt-24">
+                      <img src={logoInstagram} alt="logo-instagram" className="object-contain h-full"/>
+                    </div>
+                    <div className="mx-auto mt-2">
+                      <img src={logoLive} alt="logo-live" className="object-contain h-full"/>
+                    </div>
+                    <div className="xl:mt-8 lg:mt-2">
+                      <img src={logoIgTiny} alt="logo-ig-tiny" className="object-contain inline"/>
+                      <span className="ml-2 text-white inline">@bisniscom</span>
+                    </div>
+                    <div className="xl:mt-4">
+                      <p className="text-white text-2xl font-bold">17 Agustus 2020</p>
+                      <p className="text-white text-sm font-bold">11.00 wib</p>
+                    </div>
+                    <div className="2xl:mt-20 xl:mt-14 px-5">
+                      <p className="text-white text-sm">SPIRIT MEMBANGUN INDONESIA</p>
+                      <p className="text-white text-xl font-bold">Mencerdaskan Kehidupan Bangsa Melalui Media</p>
+                      <p className="mt-2 text-white text-xs">bersama</p>
+                    </div>
+                    <div className="grid grid-cols-2 h-full">
+                      <div className="grid place-content-center h-full">
+                        <img src={speaker1Event1} alt="speaker-1-event-1" className="mx-auto object-contain object-center"/>
+                        <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
+                          <p className="text-white text-sm">Narasumber</p>
+                        </div>
+                        <div className="mx-auto mt-2">  
+                          <p className="text-white text-xs">Helmy Yahya</p>
+                          <p className="text-white text-xs">(Praktisi Multimedia)</p>
+                        </div>
+                      </div>
+                      <div className="grid place-content-center ">
+                        <img src={speaker2Event1} alt="speaker-2-event-1" className="mx-auto object-contain object-center"/>
+                        <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
+                          <p className="text-white text-sm">Host</p>
+                        </div>
+                        <div className="mx-auto mt-2">  
+                          <p className="text-white text-xs">David Eka Issetiabudi</p>
+                          <p className="text-white text-xs">(Manager Konten Bisnis.com)</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <img src={event1} alt="event-1" className="object-cover h-full w-full rounded-md relative z-0 -top-11"/>
-                  
                 </div>
-                <div>
-                  <div className="grid grid-cols-1 transform translate-y-full relative z-10">
-                      <img src={logoInstagram} alt="logo-instagram" className="mx-auto object-contain"/>
+                <div className="bg-event-2 bg-no-repeat bg-contain bg-center h-event-2 w-full relative z-0 2xl:m-0 xl:-mt-8 xl:-mb-8 lg:-mt-20 lg:-mb-20">
+                  <div className="grid grid-cols-1 text-center relative z-10">
+                    <div className="mx-auto xl:mt-12 lg:mt-24">
+                      <img src={logoInstagram} alt="logo-instagram" className="object-contain h-full"/>
+                    </div>
+                    <div className="mx-auto mt-2">
+                      <img src={logoLive} alt="logo-live" className="object-contain h-full"/>
+                    </div>
+                    <div className="xl:mt-8 lg:mt-4">
+                      <img src={logoIgTiny} alt="logo-ig-tiny" className="object-contain inline"/>
+                      <span className="ml-2 text-white inline">@bisniscom</span>
+                    </div>
+                    <div className="xl:mt-4">
+                      <p className="text-white text-2xl font-bold">17 Agustus 2020</p>
+                      <p className="text-white text-sm font-bold">11.00 wib</p>
+                    </div>
+                    <div className="2xl:mt-52mt-20 xl:mt-14 px-5">
+                      <p className="text-white text-sm">SPIRIT MEMBANGUN INDONESIA</p>
+                      <p className="text-white text-xl font-bold">Merdeka Finansial</p>
+                      <p className="mt-2 text-white text-xs">bersama</p>
+                    </div>
+                    <div className="grid grid-cols-2 h-full mt-5">
+                      <div className="grid place-content-center  h-full">
+                        <img src={speaker1Event2} alt="speaker-1-event-1" className="-mt-4 mx-auto object-contain object-center"/>
+                        <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
+                          <p className="text-white text-sm">Narasumber</p>
+                        </div>
+                        <div className="mx-auto mt-2">  
+                          <p className="text-white text-xs">Safir Senduk</p>
+                          <p className="text-white text-xs">(Financial Planner)</p>
+                        </div>
+                      </div>
+                      <div className="grid place-content-center ">
+                        <img src={speaker2Event2} alt="speaker-2-event-1" className="mx-auto object-contain object-center"/>
+                        <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
+                          <p className="text-white text-sm">Host</p>
+                        </div>
+                        <div className="mx-auto mt-1 px-4">  
+                          <p className="text-white text-xs">Maftuh Ihsan</p>
+                          <p className="text-white text-xs">(Head of Digital Product Development Bisnis.com)</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <img src={event2} alt="event-2" className="object-cover h-full w-full rounded-md relative z-0 -top-11"/>
-
                 </div>
               </div>
 
@@ -144,47 +224,47 @@ const App = () => {
                 </div>
               </div>
 
-              <div id="sponsor" className="">
+              <div id="sponsor" className="h-full max-w-full">
                 <div className="p-2 h-10 grid grid-cols-1">  
                   <p className="text-center">Didukung oleh</p>
                 </div>
-                <div className="grid lg:grid-cols-7 grid-cols-1 p-4">
+                <div className="grid lg:grid-cols-7 grid-cols-1 h-auto w-full p-4">
                   <div className="lg:col-start-3">
-                    <img src={logoBankBtn} alt="logo-bank-btn" className="object-contain mx-auto"/>
+                    <img src={logoBankBtn} alt="logo-bank-btn" className="object-contain h-full mx-auto"/>
                   </div>
                   <div className="lg:col-start-5">
-                    <img src={logoWaskita} alt="logo-waskita" className="object-contain mx-auto"/>
+                    <img src={logoWaskita} alt="logo-waskita" className="object-contain h-full mx-auto"/>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div id="footer">
+            <div id="footer" className="h-full max-w-full">
               <div className="h-14 mx-28">
-                <div className="grid grid-cols-9 pt-4 pb-8 border-t-2 border-gray-300 border-solid">
-                  <div className="col-span-2 grid justify-items-start border-4">
+                <div className="grid lg:grid-cols-9 grid-cols-1 pt-4 pb-8 border-t-2 border-gray-300 border-solid">
+                  <div className="col-span-2 grid justify-items-start">
                     <img src={logoBisnisBottom} alt="logo-bisnis" className="object-contain object-center"/>
                     <p className="mt-4 text-xs text-gray-500">Copyright © 2020 - Bisnis Indonesia</p>
                   </div>
-                  <div className="border-4 grid place-content-center">
+                  <div className="grid place-content-center">
                     <p className="font-bold text-xs">About</p>
                   </div>
-                  <div className="border-4 grid place-content-center">
+                  <div className="grid place-content-center">
                     <p className="font-bold text-xs">Privacy Policy</p>
                   </div>
-                  <div className="border-4 grid place-content-center">
+                  <div className="grid place-content-center">
                     <p className="font-bold text-xs">Code of Conduct</p>
                   </div>
-                  <div className="border-4 grid place-content-center">
+                  <div className="grid place-content-center">
                     <p className="font-bold text-xs">Advertise with us</p>
                   </div>
-                  <div className=" border-4 grid place-content-center">
+                  <div className=" grid place-content-center">
                     <p className="font-bold text-xs">Contact Us</p>
                   </div>
-                  <div className="border-4 grid place-content-center">
+                  <div className="grid place-content-center">
                     <p className="font-bold text-xs">Career</p>
                   </div>
-                  <div className="border-4 grid place-content-center">
+                  <div className="grid place-content-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="mx-auto h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
                     </svg>

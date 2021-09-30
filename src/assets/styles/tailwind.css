@@ -6515,6 +6515,14 @@ video {
   height: 770px;
 }
 
+.h-event-1 {
+  height: 627px;
+}
+
+.h-event-2 {
+  height: 627px;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -17905,6 +17913,14 @@ video {
 
 .bg-logo-indonesia-maju {
   background-image: url('../images/heros/logo_indonesia_maju_top.png');
+}
+
+.bg-event-1 {
+  background-image: url('../images/instagram_1/bg-img.png');
+}
+
+.bg-event-2 {
+  background-image: url('../images/instagram_2/bg-img.png');
 }
 
 .from-transparent {
@@ -38211,6 +38227,14 @@ video {
     height: 770px;
   }
 
+  .sm\:h-event-1 {
+    height: 627px;
+  }
+
+  .sm\:h-event-2 {
+    height: 627px;
+  }
+
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -49527,6 +49551,14 @@ video {
 
   .sm\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .sm\:bg-event-1 {
+    background-image: url('../images/instagram_1/bg-img.png');
+  }
+
+  .sm\:bg-event-2 {
+    background-image: url('../images/instagram_2/bg-img.png');
   }
 
   .sm\:from-transparent {
@@ -69481,6 +69513,14 @@ video {
     height: 770px;
   }
 
+  .md\:h-event-1 {
+    height: 627px;
+  }
+
+  .md\:h-event-2 {
+    height: 627px;
+  }
+
   .md\:max-h-0 {
     max-height: 0px;
   }
@@ -80797,6 +80837,14 @@ video {
 
   .md\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .md\:bg-event-1 {
+    background-image: url('../images/instagram_1/bg-img.png');
+  }
+
+  .md\:bg-event-2 {
+    background-image: url('../images/instagram_2/bg-img.png');
   }
 
   .md\:from-transparent {
@@ -100751,6 +100799,14 @@ video {
     height: 770px;
   }
 
+  .lg\:h-event-1 {
+    height: 627px;
+  }
+
+  .lg\:h-event-2 {
+    height: 627px;
+  }
+
   .lg\:max-h-0 {
     max-height: 0px;
   }
@@ -112067,6 +112123,14 @@ video {
 
   .lg\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .lg\:bg-event-1 {
+    background-image: url('../images/instagram_1/bg-img.png');
+  }
+
+  .lg\:bg-event-2 {
+    background-image: url('../images/instagram_2/bg-img.png');
   }
 
   .lg\:from-transparent {
@@ -132021,6 +132085,14 @@ video {
     height: 770px;
   }
 
+  .xl\:h-event-1 {
+    height: 627px;
+  }
+
+  .xl\:h-event-2 {
+    height: 627px;
+  }
+
   .xl\:max-h-0 {
     max-height: 0px;
   }
@@ -143337,6 +143409,14 @@ video {
 
   .xl\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .xl\:bg-event-1 {
+    background-image: url('../images/instagram_1/bg-img.png');
+  }
+
+  .xl\:bg-event-2 {
+    background-image: url('../images/instagram_2/bg-img.png');
   }
 
   .xl\:from-transparent {
@@ -163291,6 +163371,14 @@ video {
     height: 770px;
   }
 
+  .\32xl\:h-event-1 {
+    height: 627px;
+  }
+
+  .\32xl\:h-event-2 {
+    height: 627px;
+  }
+
   .\32xl\:max-h-0 {
     max-height: 0px;
   }
@@ -174607,6 +174695,14 @@ video {
 
   .\32xl\:bg-logo-indonesia-maju {
     background-image: url('../images/heros/logo_indonesia_maju_top.png');
+  }
+
+  .\32xl\:bg-event-1 {
+    background-image: url('../images/instagram_1/bg-img.png');
+  }
+
+  .\32xl\:bg-event-2 {
+    background-image: url('../images/instagram_2/bg-img.png');
   }
 
   .\32xl\:from-transparent {

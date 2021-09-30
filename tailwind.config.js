@@ -25,13 +25,17 @@ module.exports = {
         'hero-shape-lg': '580px',
         'hero-shape-xl': '720px',
         'hero-shape': '770px',
-        'hero-pattern': '770px'
+        'hero-pattern': '770px',
+        'event-1': '627px',
+        'event-2': '627px'
       },
       backgroundImage: {
         'hero-shape': "url('../images/heros/shape_red.png')",
         'hero-pattern': "url('../images/heros/hero_pattern.png')",
         'logo-bisnis': "url('../images/heros/logo_bisnis_top.png')",
         'logo-indonesia-maju': "url('../images/heros/logo_indonesia_maju_top.png')",
+        'event-1': "url('../images/instagram_1/bg-img.png')",
+        'event-2': "url('../images/instagram_2/bg-img.png')"
       }
     },
   },
