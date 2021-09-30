@@ -125,23 +125,23 @@ const App = () => {
                       <p className="text-white xl:text-xl lg:text-base xl:mx-6 md:text-3xl sm:text-xl text-sm px-4 font-bold">Merdeka Finansial</p>
                       <p className="mt-2 lg:mt-0 text-white xl:text-base lg:text-xs md:text-lg text-xs ">bersama</p>
                     </div>
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-2 mt-7">
                       <div className="grid place-content-center h-full">
-                        <img src={speaker1Event2} alt="speaker-1-event-1" className="sm:-mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
+                        <img src={speaker1Event2} alt="speaker-1-event-1" className="sm:mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
                         <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
                           <p className="text-white xl:text-sm text-xs">Narasumber</p>
                         </div>
                         <div className="mx-auto mt-2">  
                           <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Safir Senduk</p>
-                          <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">(Financial Planner)</p>
+                          <p className="text-white xl:text-sm lg:text-xs md:text-sm mb-5 text-xs">(Financial Planner)</p>
                         </div>
                       </div>
                       <div className="grid place-content-center h-full">
                         <img src={speaker2Event2} alt="speaker-2-event-1" className="sm:mt-0 -mt-1 mx-auto object-contain object-center xl:h-full lg:h-20 md:h-full sm:h-full h-20"/>
                         <div className="bg-red-600 p-1 h-auto w-24 mx-auto rounded -mt-2">  
-                          <p className="text-white xl:text-sm lg:text-xs">Host</p>
+                          <p className="text-white xl:text-sm text-xs">Host</p>
                         </div>
-                        <div className="mx-auto mt-2 px-4">  
+                        <div className="mx-auto mt-2">  
                           <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">Maftuh Ihsan</p>
                           <p className="text-white xl:text-sm lg:text-xs md:text-sm text-xs">(Head of Digital Product Development Bisnis.com)</p>
                         </div>
