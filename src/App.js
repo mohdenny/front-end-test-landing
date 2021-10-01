@@ -250,7 +250,7 @@ const App = () => {
             </div>
 
             <div id="footer" className="h-full max-w-full">
-              <div className="h-14 mx-36">
+              <div className="h-14 sm:mx-36 mx-4">
                 <div className="grid lg:grid-cols-12 sm:grid-cols-1 pt-4 pb-8 border-t-2 border-gray-300 border-solid">
                   <div className="xl:col-span-3 lg:col-span-2 sm:grid sm:place-content-center sm:justify-items-center grid place-content-center justify-items-center">
                     <img src={logoBisnisBottom} alt="logo-bisnis" className="object-contain object-center"/>
@@ -278,7 +278,7 @@ const App = () => {
                   </div>
 
                   <div className="lg:hidden md:grid md:grid-cols-2 md:mt-2 md:mb-2 grid grid-cols-2 mt-2 mb-2">
-                    <div className="border-4 grid grid-rows-auto gap-2">
+                    <div className="grid grid-rows-auto gap-2 place-content-center">
                       <div className="w-auto">
                         <p className="font-bold text-xs">About</p>
                       </div>
@@ -289,7 +289,7 @@ const App = () => {
                         <p className="font-bold text-xs">Code of Conduct</p>
                       </div>
                     </div>
-                    <div className="border-4 grid grid-rows-auto gap-2">
+                    <div className="grid grid-rows-auto gap-2 place-content-center">
                       <div className="w-auto 2xl:ml-14 xl:ml-9">
                         <p className="font-bold text-xs">Advertise with us</p>
                       </div>
